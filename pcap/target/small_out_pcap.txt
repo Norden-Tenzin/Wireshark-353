@@ -1,0 +1,4 @@
+Total number of packets, 141
+Total number of UDP packets, 106
+Total number of TCP packets, 34
+Total bandwidth of the packet trace in Mbps, 0.18044316546762593

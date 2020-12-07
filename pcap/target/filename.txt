@@ -1,0 +1,1951 @@
+[Ethernet Header (14 bytes)]
+  Destination address: 50:9a:4c:e2:d4:91
+  Source address: bc:30:5b:dd:d6:3c
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 8 (Minimize Delay)] [mbz: 0]
+  Total length: 176 [bytes]
+  Identification: 37202
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 64
+  Protocol: 6 (TCP)
+  Header checksum: 0x8c8f
+  Source address: /165.230.140.98
+  Destination address: /24.187.209.82
+[TCP Header (32 bytes)]
+  Source port: 22 (SSH)
+  Destination port: 56444 (unknown)
+  Sequence Number: 1018126472
+  Acknowledgment Number: 2519936287
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: true
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 2443
+  Checksum: 0x1cf9
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3323648605] [TS Echo Reply: 719689511]
+[data (124 bytes)]
+  Hex stream: ed cc 42 df 57 6e 3e d3 36 f8 a8 85 a1 74 2f 63 bb f6 3b 24 51 02 e7 66 99 43 9e 34 60 ae 15 59 6f 3a 82 a9 33 70 d2 38 7f d4 bc 97 b2 8e 0e 63 55 d9 a4 ec 33 9b 67 73 88 4d 5a b4 b4 9f ea 55 7a 50 c2 02 58 e9 d5 90 2e 07 d5 a6 b4 f4 5a 43 e5 89 ba 09 6f 47 40 3c 8e d8 ff 06 c8 77 50 3d 73 00 b7 9b 33 78 b2 e6 84 a3 f8 54 ba 41 41 95 dc e7 2b 4f fe ce 27 14 23 e8 f1 cf
+
+[Ethernet Header (14 bytes)]
+  Destination address: bc:30:5b:dd:d6:3c
+  Source address: 50:9a:4c:e2:d4:91
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 52 [bytes]
+  Identification: 34752
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 48
+  Protocol: 6 (TCP)
+  Header checksum: 0xa6ad
+  Source address: /24.187.209.82
+  Destination address: /165.230.140.98
+[TCP Header (32 bytes)]
+  Source port: 56444 (unknown)
+  Destination port: 22 (SSH)
+  Sequence Number: 2519936287
+  Acknowledgment Number: 1018126596
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 10421
+  Checksum: 0x90c5
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 719689717] [TS Echo Reply: 3323648605]
+
+[Ethernet Header (14 bytes)]
+  Destination address: 01:80:c2:00:00:00
+  Source address: 00:12:7f:36:72:1f
+  Type: Length (38 bytes)
+[data (38 bytes)]
+  Hex stream: 42 42 03 00 00 00 00 00 80 8d 00 09 7c 2d 37 40 00 00 00 02 80 8d 00 21 56 ea 54 00 83 9e 01 00 14 00 02 00 0f 00
+[Ethernet Pad (8 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00
+
+[Ethernet Header (14 bytes)]
+  Destination address: 50:9a:4c:e2:d4:91
+  Source address: bc:30:5b:dd:d6:3c
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 8 (Minimize Delay)] [mbz: 0]
+  Total length: 136 [bytes]
+  Identification: 63472
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 64
+  Protocol: 6 (TCP)
+  Header checksum: 0x2619
+  Source address: /165.230.140.98
+  Destination address: /24.187.209.82
+[TCP Header (32 bytes)]
+  Source port: 22 (SSH)
+  Destination port: 56472 (unknown)
+  Sequence Number: 2903763033
+  Acknowledgment Number: 846581710
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: true
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 317
+  Checksum: 0x1cd1
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3323649197] [TS Echo Reply: 719688081]
+[data (84 bytes)]
+  Hex stream: 92 3d 76 80 a6 58 0d 65 a2 2b ca 38 ad f5 d3 4c 7e c3 1c 98 28 ab c6 51 c3 ce 69 4a 55 7a c8 64 d5 06 ce 7b 07 10 ff 4b 36 b2 d2 50 bb cd 33 38 23 9b 84 a5 e0 bf 69 19 c4 56 5a 9a 15 91 c5 04 8d 09 4c b6 06 f5 92 3f e6 ea 37 47 6a c6 c2 b4 70 bd 64 d8
+
+[Ethernet Header (14 bytes)]
+  Destination address: 50:9a:4c:e2:d4:91
+  Source address: bc:30:5b:dd:d6:3c
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 8 (Minimize Delay)] [mbz: 0]
+  Total length: 136 [bytes]
+  Identification: 63473
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 64
+  Protocol: 6 (TCP)
+  Header checksum: 0x2618
+  Source address: /165.230.140.98
+  Destination address: /24.187.209.82
+[TCP Header (32 bytes)]
+  Source port: 22 (SSH)
+  Destination port: 56472 (unknown)
+  Sequence Number: 2903763117
+  Acknowledgment Number: 846581710
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: true
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 317
+  Checksum: 0x1cd1
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3323649197] [TS Echo Reply: 719688081]
+[data (84 bytes)]
+  Hex stream: 64 10 fc 96 58 46 9c ce 46 4d 93 4c 6e 1e 4e 07 85 cd d9 00 2e 5c 05 ef 14 bc 82 7b 7b 25 ca ef 1e 66 4a b6 8e dd ed 63 f6 e8 61 41 9f 19 27 19 db e6 86 4a 1c d0 86 6f 37 31 e1 0c b1 cc 9c 5e 66 83 10 bf f8 3a c3 56 4d 1f 98 28 f9 84 46 1c 25 6f 69 97
+
+[Ethernet Header (14 bytes)]
+  Destination address: 50:9a:4c:e2:d4:91
+  Source address: bc:30:5b:dd:d6:3c
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 60 [bytes]
+  Identification: 43089
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 64
+  Protocol: 17 (UDP)
+  Header checksum: 0xdf0f
+  Source address: /165.230.140.98
+  Destination address: /128.6.1.1
+[UDP Header (8 bytes)]
+  Source port: 55760 (unknown)
+  Destination port: 53 (Domain Name Server)
+  Length: 40 [bytes]
+  Checksum: 0xb389
+[data (32 bytes)]
+  Hex stream: 60 35 01 00 00 01 00 00 00 00 00 00 03 77 77 77 06 67 6f 6f 67 6c 65 03 63 6f 6d 00 00 01 00 01
+
+[Ethernet Header (14 bytes)]
+  Destination address: 50:9a:4c:e2:d4:91
+  Source address: bc:30:5b:dd:d6:3c
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 60 [bytes]
+  Identification: 43090
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 64
+  Protocol: 17 (UDP)
+  Header checksum: 0xdf0e
+  Source address: /165.230.140.98
+  Destination address: /128.6.1.1
+[UDP Header (8 bytes)]
+  Source port: 55760 (unknown)
+  Destination port: 53 (Domain Name Server)
+  Length: 40 [bytes]
+  Checksum: 0xb389
+[data (32 bytes)]
+  Hex stream: 72 3e 01 00 00 01 00 00 00 00 00 00 03 77 77 77 06 67 6f 6f 67 6c 65 03 63 6f 6d 00 00 1c 00 01
+
+[Ethernet Header (14 bytes)]
+  Destination address: bc:30:5b:dd:d6:3c
+  Source address: 50:9a:4c:e2:d4:91
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 76 [bytes]
+  Identification: 13034
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 59
+  Protocol: 17 (UDP)
+  Header checksum: 0x9967
+  Source address: /128.6.1.1
+  Destination address: /165.230.140.98
+[UDP Header (8 bytes)]
+  Source port: 53 (Domain Name Server)
+  Destination port: 55760 (unknown)
+  Length: 56 [bytes]
+  Checksum: 0x726d
+[data (48 bytes)]
+  Hex stream: 60 35 81 80 00 01 00 01 00 00 00 00 03 77 77 77 06 67 6f 6f 67 6c 65 03 63 6f 6d 00 00 01 00 01 c0 0c 00 01 00 01 00 00 00 eb 00 04 8e fa 40 64
+
+[Ethernet Header (14 bytes)]
+  Destination address: bc:30:5b:dd:d6:3c
+  Source address: 50:9a:4c:e2:d4:91
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 88 [bytes]
+  Identification: 13035
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 59
+  Protocol: 17 (UDP)
+  Header checksum: 0x995a
+  Source address: /128.6.1.1
+  Destination address: /165.230.140.98
+[UDP Header (8 bytes)]
+  Source port: 53 (Domain Name Server)
+  Destination port: 55760 (unknown)
+  Length: 68 [bytes]
+  Checksum: 0xa8eb
+[data (60 bytes)]
+  Hex stream: 72 3e 81 80 00 01 00 01 00 00 00 00 03 77 77 77 06 67 6f 6f 67 6c 65 03 63 6f 6d 00 00 1c 00 01 c0 0c 00 1c 00 01 00 00 00 9f 00 10 26 07 f8 b0 40 06 08 07 00 00 00 00 00 00 20 04
+
+[Ethernet Header (14 bytes)]
+  Destination address: 50:9a:4c:e2:d4:91
+  Source address: bc:30:5b:dd:d6:3c
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 60 [bytes]
+  Identification: 24395
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 64
+  Protocol: 6 (TCP)
+  Header checksum: 0xd9c9
+  Source address: /165.230.140.98
+  Destination address: /142.250.64.100
+[TCP Header (40 bytes)]
+  Source port: 45766 (unknown)
+  Destination port: 80 (HTTP)
+  Sequence Number: 2186289715
+  Acknowledgment Number: 0
+  Data Offset: 10 (40 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: false
+  PSH: false
+  RST: false
+  SYN: true
+  FIN: false
+  Window: 29200
+  Checksum: 0x01d6
+  Urgent Pointer: 0
+  Option: [Kind: 2 (Maximum Segment Size)] [Length: 4 bytes] [Maximum Segment Size: 1460 bytes]
+  Option: [Kind: 4 (SACK Permitted)] [Length: 2 bytes]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3323649197] [TS Echo Reply: 0]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 3 (Window Scale)] [Length: 3 bytes] [Shift Count: 7]
+
+[Ethernet Header (14 bytes)]
+  Destination address: 50:9a:4c:e2:d4:91
+  Source address: bc:30:5b:dd:d6:3c
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 8 (Minimize Delay)] [mbz: 0]
+  Total length: 200 [bytes]
+  Identification: 63474
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 64
+  Protocol: 6 (TCP)
+  Header checksum: 0x25d7
+  Source address: /165.230.140.98
+  Destination address: /24.187.209.82
+[TCP Header (32 bytes)]
+  Source port: 22 (SSH)
+  Destination port: 56472 (unknown)
+  Sequence Number: 2903763201
+  Acknowledgment Number: 846581710
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: true
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 317
+  Checksum: 0x1d11
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3323649197] [TS Echo Reply: 719688081]
+[data (148 bytes)]
+  Hex stream: 8e c2 88 93 6a c4 ce 38 73 87 82 9d 39 ee bc 30 69 df f0 b1 e2 57 d9 5d 34 d8 c8 58 c6 a0 3c 7b 22 1d 89 13 5b 66 30 74 cf 6d 42 72 d5 63 c1 45 d5 08 00 86 d4 05 ba 98 a5 44 36 e1 4f 0c 55 a9 3b 14 3b 85 91 62 f0 f7 fb 33 8c b5 50 07 3b 3c 44 81 6a dc 56 a9 cd 85 2f 5a 54 7d a1 45 a5 93 7c 47 41 f1 c9 d8 b5 aa 6c ce b6 21 90 bb 48 9d 82 15 92 a1 15 9b b6 12 34 00 4b f0 ca 5c bd 8f d7 71 77 6c fd 1b 70 db 41 37 df 51 ef 74 ff d4 93 a1 4a 40
+
+[Ethernet Header (14 bytes)]
+  Destination address: bc:30:5b:dd:d6:3c
+  Source address: 50:9a:4c:e2:d4:91
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 60 [bytes]
+  Identification: 26797
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 120
+  Protocol: 6 (TCP)
+  Header checksum: 0xd867
+  Source address: /142.250.64.100
+  Destination address: /165.230.140.98
+[TCP Header (40 bytes)]
+  Source port: 80 (HTTP)
+  Destination port: 45766 (unknown)
+  Sequence Number: 3146735416
+  Acknowledgment Number: 2186289716
+  Data Offset: 10 (40 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: true
+  FIN: false
+  Window: 65535
+  Checksum: 0x375c
+  Urgent Pointer: 0
+  Option: [Kind: 2 (Maximum Segment Size)] [Length: 4 bytes] [Maximum Segment Size: 1430 bytes]
+  Option: [Kind: 4 (SACK Permitted)] [Length: 2 bytes]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3408080570] [TS Echo Reply: 3323649197]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 3 (Window Scale)] [Length: 3 bytes] [Shift Count: 8]
+
+[Ethernet Header (14 bytes)]
+  Destination address: 50:9a:4c:e2:d4:91
+  Source address: bc:30:5b:dd:d6:3c
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 52 [bytes]
+  Identification: 24396
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 64
+  Protocol: 6 (TCP)
+  Header checksum: 0xd9d0
+  Source address: /165.230.140.98
+  Destination address: /142.250.64.100
+[TCP Header (32 bytes)]
+  Source port: 45766 (unknown)
+  Destination port: 80 (HTTP)
+  Sequence Number: 2186289716
+  Acknowledgment Number: 3146735417
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 229
+  Checksum: 0x01ce
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3323649197] [TS Echo Reply: 3408080570]
+
+[Ethernet Header (14 bytes)]
+  Destination address: 50:9a:4c:e2:d4:91
+  Source address: bc:30:5b:dd:d6:3c
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 193 [bytes]
+  Identification: 24397
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 64
+  Protocol: 6 (TCP)
+  Header checksum: 0xd942
+  Source address: /165.230.140.98
+  Destination address: /142.250.64.100
+[TCP Header (32 bytes)]
+  Source port: 45766 (unknown)
+  Destination port: 80 (HTTP)
+  Sequence Number: 2186289716
+  Acknowledgment Number: 3146735417
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: true
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 229
+  Checksum: 0x025b
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3323649197] [TS Echo Reply: 3408080570]
+[data (141 bytes)]
+  Hex stream: 47 45 54 20 2f 20 48 54 54 50 2f 31 2e 31 0d 0a 55 73 65 72 2d 41 67 65 6e 74 3a 20 57 67 65 74 2f 31 2e 31 37 2e 31 20 28 6c 69 6e 75 78 2d 67 6e 75 29 0d 0a 41 63 63 65 70 74 3a 20 2a 2f 2a 0d 0a 41 63 63 65 70 74 2d 45 6e 63 6f 64 69 6e 67 3a 20 69 64 65 6e 74 69 74 79 0d 0a 48 6f 73 74 3a 20 77 77 77 2e 67 6f 6f 67 6c 65 2e 63 6f 6d 0d 0a 43 6f 6e 6e 65 63 74 69 6f 6e 3a 20 4b 65 65 70 2d 41 6c 69 76 65 0d 0a 0d 0a
+
+[Ethernet Header (14 bytes)]
+  Destination address: 50:9a:4c:e2:d4:91
+  Source address: bc:30:5b:dd:d6:3c
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 8 (Minimize Delay)] [mbz: 0]
+  Total length: 144 [bytes]
+  Identification: 63475
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 64
+  Protocol: 6 (TCP)
+  Header checksum: 0x260e
+  Source address: /165.230.140.98
+  Destination address: /24.187.209.82
+[TCP Header (32 bytes)]
+  Source port: 22 (SSH)
+  Destination port: 56472 (unknown)
+  Sequence Number: 2903763349
+  Acknowledgment Number: 846581710
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: true
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 317
+  Checksum: 0x1cd9
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3323649198] [TS Echo Reply: 719688081]
+[data (92 bytes)]
+  Hex stream: c0 83 51 9b ee 2c 7e d9 d4 99 2e 8c 5c 41 6b 0e 0e 9e 24 28 69 38 aa ca 9a 18 6f 00 03 53 18 a1 c5 f4 52 1c af 69 27 ed 84 62 e0 ee da d6 d5 04 b1 33 c0 30 9b 0c 7f 72 ac 61 99 17 84 d3 f3 6c eb a1 d7 05 58 4b 10 f5 4f 9f ba 80 5d ee 90 12 0d bc c4 bb 24 89 94 0b 5a 7f 41 d4
+
+[Ethernet Header (14 bytes)]
+  Destination address: bc:30:5b:dd:d6:3c
+  Source address: 50:9a:4c:e2:d4:91
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 52 [bytes]
+  Identification: 26799
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 120
+  Protocol: 6 (TCP)
+  Header checksum: 0xd86d
+  Source address: /142.250.64.100
+  Destination address: /165.230.140.98
+[TCP Header (32 bytes)]
+  Source port: 80 (HTTP)
+  Destination port: 45766 (unknown)
+  Sequence Number: 3146735417
+  Acknowledgment Number: 2186289857
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 261
+  Checksum: 0x6478
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3408080571] [TS Echo Reply: 3323649197]
+
+[Ethernet Header (14 bytes)]
+  Destination address: bc:30:5b:dd:d6:3c
+  Source address: 50:9a:4c:e2:d4:91
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 1470 [bytes]
+  Identification: 26820
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 120
+  Protocol: 6 (TCP)
+  Header checksum: 0xd2ce
+  Source address: /142.250.64.100
+  Destination address: /165.230.140.98
+[TCP Header (32 bytes)]
+  Source port: 80 (HTTP)
+  Destination port: 45766 (unknown)
+  Sequence Number: 3146735417
+  Acknowledgment Number: 2186289857
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 261
+  Checksum: 0x8a91
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3408080609] [TS Echo Reply: 3323649197]
+[data (1418 bytes)]
+  Hex stream: 48 54 54 50 2f 31 2e 31 20 32 30 30 20 4f 4b 0d 0a 44 61 74 65 3a 20 4d 6f 6e 2c 20 30 39 20 4e 6f 76 20 32 30 32 30 20 31 35 3a 33 36 3a 31 34 20 47 4d 54 0d 0a 45 78 70 69 72 65 73 3a 20 2d 31 0d 0a 43 61 63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 70 72 69 76 61 74 65 2c 20 6d 61 78 2d 61 67 65 3d 30 0d 0a 43 6f 6e 74 65 6e 74 2d 54 79 70 65 3a 20 74 65 78 74 2f 68 74 6d 6c 3b 20 63 68 61 72 73 65 74 3d 49 53 4f 2d 38 38 35 39 2d 31 0d 0a 50 33 50 3a 20 43 50 3d 22 54 68 69 73 20 69 73 20 6e 6f 74 20 61 20 50 33 50 20 70 6f 6c 69 63 79 21 20 53 65 65 20 67 2e 63 6f 2f 70 33 70 68 65 6c 70 20 66 6f 72 20 6d 6f 72 65 20 69 6e 66 6f 2e 22 0d 0a 53 65 72 76 65 72 3a 20 67 77 73 0d 0a 58 2d 58 53 53 2d 50 72 6f 74 65 63 74 69 6f 6e 3a 20 30 0d 0a 58 2d 46 72 61 6d 65 2d 4f 70 74 69 6f 6e 73 3a 20 53 41 4d 45 4f 52 49 47 49 4e 0d 0a 53 65 74 2d 43 6f 6f 6b 69 65 3a 20 31 50 5f 4a 41 52 3d 32 30 32 30 2d 31 31 2d 30 39 2d 31 35 3b 20 65 78 70 69 72 65 73 3d 57 65 64 2c 20 30 39 2d 44 65 63 2d 32 30 32 30 20 31 35 3a 33 36 3a 31 34 20 47 4d 54 3b 20 70 61 74 68 3d 2f 3b 20 64 6f 6d 61 69 6e 3d 2e 67 6f 6f 67 6c 65 2e 63 6f 6d 3b 20 53 65 63 75 72 65 0d 0a 53 65 74 2d 43 6f 6f 6b 69 65 3a 20 4e 49 44 3d 32 30 34 3d 77 7a 4a 7a 79 59 51 52 67 55 78 4f 38 65 31 74 6f 46 57 45 49 2d 64 6d 38 74 36 56 6a 45 33 35 4f 62 59 6c 67 78 71 65 50 67 39 36 44 78 37 36 45 77 62 4f 69 6c 31 45 72 35 65 32 62 66 64 66 74 37 4a 31 55 77 47 68 37 76 5a 56 54 45 5a 55 36 73 51 6c 5f 71 47 52 58 4c 48 51 78 45 4b 6e 32 35 43 33 68 70 75 5a 69 46 63 53 36 36 52 48 77 58 4b 67 43 70 63 31 53 7a 55 2d 75 68 6e 47 76 51 52 6c 51 56 78 46 4b 4e 30 56 75 71 71 35 39 73 78 76 73 4f 69 30 66 46 64 51 31 59 4a 73 34 62 61 41 69 6d 36 77 70 4e 41 3b 20 65 78 70 69 72 65 73 3d 54 75 65 2c 20 31 31 2d 4d 61 79 2d 32 30 32 31 20 31 35 3a 33 36 3a 31 34 20 47 4d 54 3b 20 70 61 74 68 3d 2f 3b 20 64 6f 6d 61 69 6e 3d 2e 67 6f 6f 67 6c 65 2e 63 6f 6d 3b 20 48 74 74 70 4f 6e 6c 79 0d 0a 41 63 63 65 70 74 2d 52 61 6e 67 65 73 3a 20 6e 6f 6e 65 0d 0a 56 61 72 79 3a 20 41 63 63 65 70 74 2d 45 6e 63 6f 64 69 6e 67 0d 0a 54 72 61 6e 73 66 65 72 2d 45 6e 63 6f 64 69 6e 67 3a 20 63 68 75 6e 6b 65 64 0d 0a 0d 0a 33 32 36 62 0d 0a 3c 21 64 6f 63 74 79 70 65 20 68 74 6d 6c 3e 3c 68 74 6d 6c 20 69 74 65 6d 73 63 6f 70 65 3d 22 22 20 69 74 65 6d 74 79 70 65 3d 22 68 74 74 70 3a 2f 2f 73 63 68 65 6d 61 2e 6f 72 67 2f 57 65 62 50 61 67 65 22 20 6c 61 6e 67 3d 22 65 6e 22 3e 3c 68 65 61 64 3e 3c 6d 65 74 61 20 63 6f 6e 74 65 6e 74 3d 22 53 65 61 72 63 68 20 74 68 65 20 77 6f 72 6c 64 27 73 20 69 6e 66 6f 72 6d 61 74 69 6f 6e 2c 20 69 6e 63 6c 75 64 69 6e 67 20 77 65 62 70 61 67 65 73 2c 20 69 6d 61 67 65 73 2c 20 76 69 64 65 6f 73 20 61 6e 64 20 6d 6f 72 65 2e 20 47 6f 6f 67 6c 65 20 68 61 73 20 6d 61 6e 79 20 73 70 65 63 69 61 6c 20 66 65 61 74 75 72 65 73 20 74 6f 20 68 65 6c 70 20 79 6f 75 20 66 69 6e 64 20 65 78 61 63 74 6c 79 20 77 68 61 74 20 79 6f 75 27 72 65 20 6c 6f 6f 6b 69 6e 67 20 66 6f 72 2e 22 20 6e 61 6d 65 3d 22 64 65 73 63 72 69 70 74 69 6f 6e 22 3e 3c 6d 65 74 61 20 63 6f 6e 74 65 6e 74 3d 22 6e 6f 6f 64 70 22 20 6e 61 6d 65 3d 22 72 6f 62 6f 74 73 22 3e 3c 6d 65 74 61 20 63 6f 6e 74 65 6e 74 3d 22 74 65 78 74 2f 68 74 6d 6c 3b 20 63 68 61 72 73 65 74 3d 55 54 46 2d 38 22 20 68 74 74 70 2d 65 71 75 69 76 3d 22 43 6f 6e 74 65 6e 74 2d 54 79 70 65 22 3e 3c 6d 65 74 61 20 63 6f 6e 74 65 6e 74 3d 22 2f 69 6d 61 67 65 73 2f 62 72 61 6e 64 69 6e 67 2f 67 6f 6f 67 6c 65 67 2f 31 78 2f 67 6f 6f 67 6c 65 67 5f 73 74 61 6e 64 61 72 64 5f 63 6f 6c 6f 72 5f 31 32 38 64 70 2e 70 6e 67 22 20 69 74 65 6d 70 72 6f 70 3d 22 69 6d 61 67 65 22 3e 3c 74 69 74 6c 65 3e 47 6f 6f 67 6c 65 3c 2f 74 69 74 6c 65 3e 3c 73 63 72 69 70 74 20 6e 6f 6e 63 65 3d 22 71 5a 6f 69 31 67 67 70 69 72 61 4a 31 65 65 2f 33 5a 7a 62 71 67 3d 3d 22 3e 28 66 75 6e 63 74 69 6f 6e 28 29 7b 77 69 6e 64 6f 77 2e 67 6f 6f 67 6c 65 3d 7b 6b 45 49 3a 27 37 6d 47 70 58 5f 58 38 4c 59 62 4f 79 74 4d 50 6b 34 43 67 34 41 49 27 2c 6b 45 58 50 49 3a 27 30 2c 32 30 32 31 36 32 2c 31 31 35 31 35 38 35 2c 35 36 36 32 2c 37 33 30 2c 32 32 34 2c 35 31 30 35 2c 32 30 36 2c 33 32 30 34 2c 31 30 2c 31 32 32 36 2c 33 36 34 2c 31 34 39 39 2c 36 31 31 2c 39 32 2c 31 31 34 2c 33 38 33
+
+[Ethernet Header (14 bytes)]
+  Destination address: 50:9a:4c:e2:d4:91
+  Source address: bc:30:5b:dd:d6:3c
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 52 [bytes]
+  Identification: 24398
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 64
+  Protocol: 6 (TCP)
+  Header checksum: 0xd9ce
+  Source address: /165.230.140.98
+  Destination address: /142.250.64.100
+[TCP Header (32 bytes)]
+  Source port: 45766 (unknown)
+  Destination port: 80 (HTTP)
+  Sequence Number: 2186289857
+  Acknowledgment Number: 3146736835
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 251
+  Checksum: 0x01ce
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3323649207] [TS Echo Reply: 3408080609]
+
+[Ethernet Header (14 bytes)]
+  Destination address: bc:30:5b:dd:d6:3c
+  Source address: 50:9a:4c:e2:d4:91
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 1470 [bytes]
+  Identification: 26821
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 120
+  Protocol: 6 (TCP)
+  Header checksum: 0xd2cd
+  Source address: /142.250.64.100
+  Destination address: /165.230.140.98
+[TCP Header (32 bytes)]
+  Source port: 80 (HTTP)
+  Destination port: 45766 (unknown)
+  Sequence Number: 3146736835
+  Acknowledgment Number: 2186289857
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 261
+  Checksum: 0xe42d
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3408080609] [TS Echo Reply: 3323649197]
+[data (1418 bytes)]
+  Hex stream: 2c 32 34 36 2c 35 2c 31 31 32 39 2c 32 32 34 2c 36 34 39 2c 33 34 35 32 2c 34 39 2c 32 36 35 2c 33 2c 36 36 2c 34 35 33 2c 31 34 30 2c 31 37 34 2c 32 31 38 2c 32 37 30 2c 32 2c 31 30 2c 34 32 38 2c 34 34 31 2c 31 31 33 2c 34 35 32 2c 34 30 38 2c 33 32 34 2c 32 35 39 30 2c 32 36 35 2c 37 2c 33 32 34 2c 31 31 31 36 36 36 34 2c 31 31 39 37 37 31 38 2c 35 36 34 2c 37 2c 33 32 38 39 37 38 2c 31 33 36 37 37 2c 34 38 35 35 2c 33 32 36 39 32 2c 31 36 31 30 38 2c 31 37 34 35 30 2c 31 31 32 34 30 2c 39 31 38 38 2c 38 33 38 34 2c 34 38 35 39 2c 31 33 36 31 2c 39 32 39 30 2c 33 30 32 39 2c 34 37 33 39 2c 31 31 30 33 33 2c 31 38 30 38 2c 34 30 32 30 2c 39 37 38 2c 37 39 33 31 2c 35 32 39 37 2c 32 30 35 34 2c 39 32 30 2c 38 37 33 2c 34 31 39 32 2c 36 34 33 30 2c 31 31 34 32 2c 37 38 36 31 2c 35 35 32 34 2c 34 35 32 31 2c 32 37 37 36 2c 39 31 37 2c 32 32 37 37 2c 38 2c 32 37 39 36 2c 31 35 39 33 2c 31 32 37 39 2c 32 32 31 32 2c 35 33 31 2c 31 34 38 2c 31 31 30 33 2c 38 34 30 2c 35 31 37 2c 31 34 36 36 2c 35 36 2c 31 35 37 2c 34 31 30 31 2c 33 31 32 2c 31 31 33 35 2c 31 2c 33 2c 32 30 36 33 2c 36 30 36 2c 32 30 32 34 2c 31 37 37 36 2c 31 34 33 2c 33 37 37 2c 31 39 34 37 2c 32 32 32 39 2c 39 33 2c 33 32 38 2c 31 32 38 34 2c 31 36 2c 32 39 32 37 2c 32 32 34 37 2c 31 38 31 32 2c 31 37 38 37 2c 33 32 32 37 2c 32 38 34 35 2c 37 2c 32 39 30 34 2c 33 31 36 34 2c 36 32 38 36 2c 34 34 35 34 2c 36 34 32 2c 37 38 37 37 2c 34 39 32 38 2c 31 30 38 2c 33 34 30 37 2c 39 30 38 2c 32 2c 39 34 31 2c 35 30 31 31 2c 37 34 37 30 2c 31 2c 32 38 34 32 2c 34 33 32 2c 33 2c 33 34 36 2c 31 32 34 34 2c 31 2c 38 32 30 2c 31 2c 34 36 32 33 2c 31 34 39 2c 35 39 39 30 2c 37 39 38 35 2c 34 2c 31 35 32 38 2c 32 33 30 34 2c 31 32 33 36 2c 32 37 31 2c 38 37 34 2c 34 30 35 2c 31 38 36 30 2c 32 33 39 33 2c 37 34 2c 32 30 2c 34 34 32 2c 34 30 2c 39 33 34 2c 32 38 31 2c 35 32 2c 32 31 34 2c 37 36 32 2c 31 34 30 31 2c 31 36 2c 34 34 37 2c 34 36 30 2c 31 35 35 35 2c 34 30 36 37 2c 31 30 33 35 2c 31 33 31 36 2c 32 30 31 39 2c 39 32 2c 31 31 37 32 2c 31 34 32 36 2c 36 39 2c 33 30 35 2c 31 37 39 38 2c 35 31 32 2c 31 35 31 34 2c 31 32 39 38 2c 31 37 35 32 2c 36 39 30 2c 31 39 36 38 2c 32 33 39 2c 32 35 32 2c 33 37 35 32 2c 35 31 38 2c 39 31 32 2c 35 36 35 2c 31 31 31 38 2c 33 31 2c 31 33 30 33 2c 39 38 31 2c 34 32 37 2c 31 31 34 33 2c 31 33 38 2c 33 30 39 35 2c 39 39 30 2c 35 32 2c 33 30 33 30 2c 32 35 35 2c 32 32 31 34 2c 38 35 30 2c 38 30 2c 31 31 35 36 2c 32 31 39 2c 36 33 38 2c 33 37 2c 36 33 30 2c 38 32 37 2c 31 33 30 2c 33 36 30 2c 34 37 2c 36 38 2c 32 2c 35 36 37 2c 31 30 30 38 2c 33 34 30 34 2c 39 39 32 2c 31 33 36 39 2c 35 35 2c 37 34 35 2c 33 32 35 36 2c 35 34 31 2c 34 30 2c 31 37 30 2c 36 30 36 2c 32 2c 37 37 37 2c 31 30 34 2c 33 31 39 2c 32 33 30 2c 31 37 34 2c 33 38 35 2c 32 38 2c 31 31 2c 37 33 31 2c 34 33 2c 32 31 2c 39 37 2c 35 30 34 2c 31 31 33 2c 32 32 34 2c 31 31 38 35 2c 36 32 33 2c 31 31 37 2c 31 31 33 37 2c 31 34 35 2c 31 36 2c 33 35 33 2c 32 2c 36 31 31 2c 31 36 31 2c 31 31 32 38 2c 31 34 32 2c 36 39 33 2c 36 37 31 2c 36 33 35 2c 31 30 30 2c 38 2c 32 30 32 2c 31 2c 32 2c 32 2c 33 38 2c 34 38 2c 36 30 2c 32 34 38 2c 32 34 2c 31 34 37 2c 31 32 36 36 2c 32 2c 31 32 30 2c 31 37 39 2c 35 31 35 2c 33 33 34 2c 35 31 2c 35 2c 37 38 30 2c 38 38 2c 32 35 32 2c 34 2c 31 39 2c 32 30 2c 32 35 39 2c 31 31 31 2c 38 30 2c 32 38 35 2c 31 35 34 2c 37 30 2c 35 33 2c 32 2c 33 37 36 2c 34 36 39 2c 32 32 31 2c 34 35 2c 35 32 2c 36 37 33 2c 31 32 32 32 2c 31 32 36 2c 31 38 2c 32 31 2c 33 38 37 2c 32 2c 33 2c 32 2c 32 2c 32 30 38 2c 36 2c 34 2c 31 32 36 2c 33 37 31 2c 32 31 34 2c 31 39 32 34 2c 39 30 2c 31 2c 38 30 36 2c 32 2c 31 31 34 2c 32 32 37 2c 33 38 31 2c 31 33 35 2c 36 35 33 2c 39 33 2c 31 37 34 2c 34 38 34 2c 31 32 32 2c 33 39 37 2c 32 31 30 30 2c 35 37 33 37 37 32 37 2c 33 37 30 36 2c 35 39 39 36 39 39 34 2c 32 38 30 31 32 31 36 2c 35 34 39 2c 33 33 33 2c 34 34 34 2c 31 2c 32 2c 38 30 2c 31 2c 39 30 30 2c 38 39 36 2c 31 2c 39 2c 32 2c 32 35 35 31 2c 31 2c 37 34 38 2c 31 34 31 2c 35 39 2c 37 33 36 2c 35 36 33 2c 31 2c 34 32 36 35 2c 31 2c 31 2c 32 2c 31 30 31 37 2c 39 2c 33 30 35 2c 33 32 39 39 2c 32 34 38 2c 35 39 35 2c 31 2c 37 37 37 2c 36 30 2c 35 30 33 2c 34 2c 39 34 2c 31 2c 31 31 2c 32 35 2c 34 38 2c 33 36 2c 32 2c 31 30
+
+[Ethernet Header (14 bytes)]
+  Destination address: 50:9a:4c:e2:d4:91
+  Source address: bc:30:5b:dd:d6:3c
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 52 [bytes]
+  Identification: 24399
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 64
+  Protocol: 6 (TCP)
+  Header checksum: 0xd9cd
+  Source address: /165.230.140.98
+  Destination address: /142.250.64.100
+[TCP Header (32 bytes)]
+  Source port: 45766 (unknown)
+  Destination port: 80 (HTTP)
+  Sequence Number: 2186289857
+  Acknowledgment Number: 3146738253
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 274
+  Checksum: 0x01ce
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3323649207] [TS Echo Reply: 3408080609]
+
+[Ethernet Header (14 bytes)]
+  Destination address: bc:30:5b:dd:d6:3c
+  Source address: 50:9a:4c:e2:d4:91
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 1470 [bytes]
+  Identification: 26822
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 120
+  Protocol: 6 (TCP)
+  Header checksum: 0xd2cc
+  Source address: /142.250.64.100
+  Destination address: /165.230.140.98
+[TCP Header (32 bytes)]
+  Source port: 80 (HTTP)
+  Destination port: 45766 (unknown)
+  Sequence Number: 3146738253
+  Acknowledgment Number: 2186289857
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 261
+  Checksum: 0xf6b0
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3408080609] [TS Echo Reply: 3323649197]
+[data (1418 bytes)]
+  Hex stream: 2c 32 2c 31 37 2c 32 2c 31 36 2c 32 2c 31 2c 31 2c 32 32 37 2c 31 36 2c 32 33 39 35 38 34 30 35 2c 32 37 30 30 34 34 32 2c 31 35 36 39 36 27 2c 6b 42 4c 3a 27 45 70 76 4a 27 7d 3b 67 6f 6f 67 6c 65 2e 73 6e 3d 27 77 65 62 68 70 27 3b 67 6f 6f 67 6c 65 2e 6b 48 4c 3d 27 65 6e 27 3b 7d 29 28 29 3b 28 66 75 6e 63 74 69 6f 6e 28 29 7b 67 6f 6f 67 6c 65 2e 6c 63 3d 5b 5d 3b 67 6f 6f 67 6c 65 2e 6c 69 3d 30 3b 67 6f 6f 67 6c 65 2e 67 65 74 45 49 3d 66 75 6e 63 74 69 6f 6e 28 61 29 7b 66 6f 72 28 76 61 72 20 63 3b 61 26 26 28 21 61 2e 67 65 74 41 74 74 72 69 62 75 74 65 7c 7c 21 28 63 3d 61 2e 67 65 74 41 74 74 72 69 62 75 74 65 28 22 65 69 64 22 29 29 29 3b 29 61 3d 61 2e 70 61 72 65 6e 74 4e 6f 64 65 3b 72 65 74 75 72 6e 20 63 7c 7c 67 6f 6f 67 6c 65 2e 6b 45 49 7d 3b 67 6f 6f 67 6c 65 2e 67 65 74 4c 45 49 3d 66 75 6e 63 74 69 6f 6e 28 61 29 7b 66 6f 72 28 76 61 72 20 63 3d 6e 75 6c 6c 3b 61 26 26 28 21 61 2e 67 65 74 41 74 74 72 69 62 75 74 65 7c 7c 21 28 63 3d 61 2e 67 65 74 41 74 74 72 69 62 75 74 65 28 22 6c 65 69 64 22 29 29 29 3b 29 61 3d 61 2e 70 61 72 65 6e 74 4e 6f 64 65 3b 72 65 74 75 72 6e 20 63 7d 3b 67 6f 6f 67 6c 65 2e 6d 6c 3d 66 75 6e 63 74 69 6f 6e 28 29 7b 72 65 74 75 72 6e 20 6e 75 6c 6c 7d 3b 67 6f 6f 67 6c 65 2e 74 69 6d 65 3d 66 75 6e 63 74 69 6f 6e 28 29 7b 72 65 74 75 72 6e 20 44 61 74 65 2e 6e 6f 77 28 29 7d 3b 67 6f 6f 67 6c 65 2e 6c 6f 67 3d 66 75 6e 63 74 69 6f 6e 28 61 2c 63 2c 62 2c 64 2c 67 29 7b 69 66 28 62 3d 67 6f 6f 67 6c 65 2e 6c 6f 67 55 72 6c 28 61 2c 63 2c 62 2c 64 2c 67 29 29 7b 61 3d 6e 65 77 20 49 6d 61 67 65 3b 76 61 72 20 65 3d 67 6f 6f 67 6c 65 2e 6c 63 2c 66 3d 67 6f 6f 67 6c 65 2e 6c 69 3b 65 5b 66 5d 3d 61 3b 61 2e 6f 6e 65 72 72 6f 72 3d 61 2e 6f 6e 6c 6f 61 64 3d 61 2e 6f 6e 61 62 6f 72 74 3d 66 75 6e 63 74 69 6f 6e 28 29 7b 64 65 6c 65 74 65 20 65 5b 66 5d 7d 3b 67 6f 6f 67 6c 65 2e 76 65 6c 26 26 67 6f 6f 67 6c 65 2e 76 65 6c 2e 6c 75 26 26 67 6f 6f 67 6c 65 2e 76 65 6c 2e 6c 75 28 62 29 3b 61 2e 73 72 63 3d 62 3b 67 6f 6f 67 6c 65 2e 6c 69 3d 66 2b 31 7d 7d 3b 67 6f 6f 67 6c 65 2e 6c 6f 67 55 72 6c 3d 66 75 6e 63 74 69 6f 6e 28 61 2c 63 2c 62 2c 64 2c 67 29 7b 76 61 72 20 65 3d 22 22 2c 66 3d 67 6f 6f 67 6c 65 2e 6c 73 7c 7c 22 22 3b 62 7c 7c 2d 31 21 3d 63 2e 73 65 61 72 63 68 28 22 26 65 69 3d 22 29 7c 7c 28 65 3d 22 26 65 69 3d 22 2b 67 6f 6f 67 6c 65 2e 67 65 74 45 49 28 64 29 2c 2d 31 3d 3d 63 2e 73 65 61 72 63 68 28 22 26 6c 65 69 3d 22 29 26 26 28 64 3d 67 6f 6f 67 6c 65 2e 67 65 74 4c 45 49 28 64 29 29 26 26 28 65 2b 3d 22 26 6c 65 69 3d 22 2b 64 29 29 3b 64 3d 22 22 3b 21 62 26 26 67 6f 6f 67 6c 65 2e 63 73 68 69 64 26 26 2d 31 3d 3d 63 2e 73 65 61 72 63 68 28 22 26 63 73 68 69 64 3d 22 29 26 26 22 73 6c 68 22 21 3d 61 26 26 28 64 3d 22 26 63 73 68 69 64 3d 22 2b 67 6f 6f 67 6c 65 2e 63 73 68 69 64 29 3b 62 3d 62 7c 7c 22 2f 22 2b 28 67 7c 7c 22 67 65 6e 5f 32 30 34 22 29 2b 22 3f 61 74 79 70 3d 69 26 63 74 3d 22 2b 61 2b 22 26 63 61 64 3d 22 2b 63 2b 65 2b 66 2b 22 26 7a 78 3d 22 2b 67 6f 6f 67 6c 65 2e 74 69 6d 65 28 29 2b 64 3b 2f 5e 68 74 74 70 3a 2f 69 2e 74 65 73 74 28 62 29 26 26 22 68 74 74 70 73 3a 22 3d 3d 77 69 6e 64 6f 77 2e 6c 6f 63 61 74 69 6f 6e 2e 70 72 6f 74 6f 63 6f 6c 26 26 28 67 6f 6f 67 6c 65 2e 6d 6c 28 45 72 72 6f 72 28 22 61 22 29 2c 21 31 2c 7b 73 72 63 3a 62 2c 67 6c 6d 6d 3a 31 7d 29 2c 62 3d 22 22 29 3b 72 65 74 75 72 6e 20 62 7d 3b 7d 29 2e 63 61 6c 6c 28 74 68 69 73 29 3b 28 66 75 6e 63 74 69 6f 6e 28 29 7b 67 6f 6f 67 6c 65 2e 79 3d 7b 7d 3b 67 6f 6f 67 6c 65 2e 78 3d 66 75 6e 63 74 69 6f 6e 28 61 2c 62 29 7b 69 66 28 61 29 76 61 72 20 63 3d 61 2e 69 64 3b 65 6c 73 65 7b 64 6f 20 63 3d 4d 61 74 68 2e 72 61 6e 64 6f 6d 28 29 3b 77 68 69 6c 65 28 67 6f 6f 67 6c 65 2e 79 5b 63 5d 29 7d 67 6f 6f 67 6c 65 2e 79 5b 63 5d 3d 5b 61 2c 62 5d 3b 72 65 74 75 72 6e 21 31 7d 3b 67 6f 6f 67 6c 65 2e 6c 6d 3d 5b 5d 3b 67 6f 6f 67 6c 65 2e 70 6c 6d 3d 66 75 6e 63 74 69 6f 6e 28 61 29 7b 67 6f 6f 67 6c 65 2e 6c 6d 2e 70 75 73 68 2e 61 70 70 6c 79 28 67 6f 6f 67 6c 65 2e 6c 6d 2c 61 29 7d 3b 67 6f 6f 67 6c 65 2e 6c 71 3d 5b 5d 3b 67 6f 6f 67 6c 65 2e 6c 6f 61 64 3d 66 75 6e 63 74 69 6f 6e 28 61 2c 62 2c 63 29 7b 67 6f 6f 67 6c 65 2e 6c 71 2e 70 75 73 68 28 5b 5b 61 5d 2c 62 2c 63 5d 29 7d 3b 67 6f 6f 67 6c
+
+[Ethernet Header (14 bytes)]
+  Destination address: 50:9a:4c:e2:d4:91
+  Source address: bc:30:5b:dd:d6:3c
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 52 [bytes]
+  Identification: 24400
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 64
+  Protocol: 6 (TCP)
+  Header checksum: 0xd9cc
+  Source address: /165.230.140.98
+  Destination address: /142.250.64.100
+[TCP Header (32 bytes)]
+  Source port: 45766 (unknown)
+  Destination port: 80 (HTTP)
+  Sequence Number: 2186289857
+  Acknowledgment Number: 3146739671
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 296
+  Checksum: 0x01ce
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3323649207] [TS Echo Reply: 3408080609]
+
+[Ethernet Header (14 bytes)]
+  Destination address: bc:30:5b:dd:d6:3c
+  Source address: 50:9a:4c:e2:d4:91
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 1470 [bytes]
+  Identification: 26823
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 120
+  Protocol: 6 (TCP)
+  Header checksum: 0xd2cb
+  Source address: /142.250.64.100
+  Destination address: /165.230.140.98
+[TCP Header (32 bytes)]
+  Source port: 80 (HTTP)
+  Destination port: 45766 (unknown)
+  Sequence Number: 3146739671
+  Acknowledgment Number: 2186289857
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 261
+  Checksum: 0x96e7
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3408080609] [TS Echo Reply: 3323649197]
+[data (1418 bytes)]
+  Hex stream: 65 2e 6c 6f 61 64 41 6c 6c 3d 66 75 6e 63 74 69 6f 6e 28 61 2c 62 29 7b 67 6f 6f 67 6c 65 2e 6c 71 2e 70 75 73 68 28 5b 61 2c 62 5d 29 7d 3b 7d 29 2e 63 61 6c 6c 28 74 68 69 73 29 3b 67 6f 6f 67 6c 65 2e 66 3d 7b 7d 3b 28 66 75 6e 63 74 69 6f 6e 28 29 7b 0a 64 6f 63 75 6d 65 6e 74 2e 64 6f 63 75 6d 65 6e 74 45 6c 65 6d 65 6e 74 2e 61 64 64 45 76 65 6e 74 4c 69 73 74 65 6e 65 72 28 22 73 75 62 6d 69 74 22 2c 66 75 6e 63 74 69 6f 6e 28 62 29 7b 76 61 72 20 61 3b 69 66 28 61 3d 62 2e 74 61 72 67 65 74 29 7b 76 61 72 20 63 3d 61 2e 67 65 74 41 74 74 72 69 62 75 74 65 28 22 64 61 74 61 2d 73 75 62 6d 69 74 66 61 6c 73 65 22 29 3b 61 3d 22 31 22 3d 3d 63 7c 7c 22 71 22 3d 3d 63 26 26 21 61 2e 65 6c 65 6d 65 6e 74 73 2e 71 2e 76 61 6c 75 65 3f 21 30 3a 21 31 7d 65 6c 73 65 20 61 3d 21 31 3b 61 26 26 28 62 2e 70 72 65 76 65 6e 74 44 65 66 61 75 6c 74 28 29 2c 62 2e 73 74 6f 70 50 72 6f 70 61 67 61 74 69 6f 6e 28 29 29 7d 2c 21 30 29 3b 64 6f 63 75 6d 65 6e 74 2e 64 6f 63 75 6d 65 6e 74 45 6c 65 6d 65 6e 74 2e 61 64 64 45 76 65 6e 74 4c 69 73 74 65 6e 65 72 28 22 63 6c 69 63 6b 22 2c 66 75 6e 63 74 69 6f 6e 28 62 29 7b 76 61 72 20 61 3b 61 3a 7b 66 6f 72 28 61 3d 62 2e 74 61 72 67 65 74 3b 61 26 26 61 21 3d 64 6f 63 75 6d 65 6e 74 2e 64 6f 63 75 6d 65 6e 74 45 6c 65 6d 65 6e 74 3b 61 3d 61 2e 70 61 72 65 6e 74 45 6c 65 6d 65 6e 74 29 69 66 28 22 41 22 3d 3d 61 2e 74 61 67 4e 61 6d 65 29 7b 61 3d 22 31 22 3d 3d 61 2e 67 65 74 41 74 74 72 69 62 75 74 65 28 22 64 61 74 61 2d 6e 6f 68 72 65 66 22 29 3b 62 72 65 61 6b 20 61 7d 61 3d 21 31 7d 61 26 26 62 2e 70 72 65 76 65 6e 74 44 65 66 61 75 6c 74 28 29 7d 2c 21 30 29 3b 7d 29 2e 63 61 6c 6c 28 74 68 69 73 29 3b 0a 76 61 72 20 61 3d 77 69 6e 64 6f 77 2e 6c 6f 63 61 74 69 6f 6e 2c 62 3d 61 2e 68 72 65 66 2e 69 6e 64 65 78 4f 66 28 22 23 22 29 3b 69 66 28 30 3c 3d 62 29 7b 76 61 72 20 63 3d 61 2e 68 72 65 66 2e 73 75 62 73 74 72 69 6e 67 28 62 2b 31 29 3b 2f 28 5e 7c 26 29 71 3d 2f 2e 74 65 73 74 28 63 29 26 26 2d 31 3d 3d 63 2e 69 6e 64 65 78 4f 66 28 22 23 22 29 26 26 61 2e 72 65 70 6c 61 63 65 28 22 2f 73 65 61 72 63 68 3f 22 2b 63 2e 72 65 70 6c 61 63 65 28 2f 28 5e 7c 26 29 66 70 3d 5b 5e 26 5d 2a 2f 67 2c 22 22 29 2b 22 26 63 61 64 3d 68 22 29 7d 3b 3c 2f 73 63 72 69 70 74 3e 3c 73 74 79 6c 65 3e 23 67 62 61 72 2c 23 67 75 73 65 72 7b 66 6f 6e 74 2d 73 69 7a 65 3a 31 33 70 78 3b 70 61 64 64 69 6e 67 2d 74 6f 70 3a 31 70 78 20 21 69 6d 70 6f 72 74 61 6e 74 3b 7d 23 67 62 61 72 7b 68 65 69 67 68 74 3a 32 32 70 78 7d 23 67 75 73 65 72 7b 70 61 64 64 69 6e 67 2d 62 6f 74 74 6f 6d 3a 37 70 78 20 21 69 6d 70 6f 72 74 61 6e 74 3b 74 65 78 74 2d 61 6c 69 67 6e 3a 72 69 67 68 74 7d 2e 67 62 68 2c 2e 67 62 64 7b 62 6f 72 64 65 72 2d 74 6f 70 3a 31 70 78 20 73 6f 6c 69 64 20 23 63 39 64 37 66 31 3b 66 6f 6e 74 2d 73 69 7a 65 3a 31 70 78 7d 2e 67 62 68 7b 68 65 69 67 68 74 3a 30 3b 70 6f 73 69 74 69 6f 6e 3a 61 62 73 6f 6c 75 74 65 3b 74 6f 70 3a 32 34 70 78 3b 77 69 64 74 68 3a 31 30 30 25 7d 40 6d 65 64 69 61 20 61 6c 6c 7b 2e 67 62 31 7b 68 65 69 67 68 74 3a 32 32 70 78 3b 6d 61 72 67 69 6e 2d 72 69 67 68 74 3a 2e 35 65 6d 3b 76 65 72 74 69 63 61 6c 2d 61 6c 69 67 6e 3a 74 6f 70 7d 23 67 62 61 72 7b 66 6c 6f 61 74 3a 6c 65 66 74 7d 7d 61 2e 67 62 31 2c 61 2e 67 62 34 7b 74 65 78 74 2d 64 65 63 6f 72 61 74 69 6f 6e 3a 75 6e 64 65 72 6c 69 6e 65 20 21 69 6d 70 6f 72 74 61 6e 74 7d 61 2e 67 62 31 2c 61 2e 67 62 34 7b 63 6f 6c 6f 72 3a 23 30 30 63 20 21 69 6d 70 6f 72 74 61 6e 74 7d 2e 67 62 69 20 2e 67 62 34 7b 63 6f 6c 6f 72 3a 23 64 64 38 65 32 37 20 21 69 6d 70 6f 72 74 61 6e 74 7d 2e 67 62 66 20 2e 67 62 34 7b 63 6f 6c 6f 72 3a 23 39 30 30 20 21 69 6d 70 6f 72 74 61 6e 74 7d 0a 3c 2f 73 74 79 6c 65 3e 3c 73 74 79 6c 65 3e 62 6f 64 79 2c 74 64 2c 61 2c 70 2c 2e 68 7b 66 6f 6e 74 2d 66 61 6d 69 6c 79 3a 61 72 69 61 6c 2c 73 61 6e 73 2d 73 65 72 69 66 7d 62 6f 64 79 7b 6d 61 72 67 69 6e 3a 30 3b 6f 76 65 72 66 6c 6f 77 2d 79 3a 73 63 72 6f 6c 6c 7d 23 67 6f 67 7b 70 61 64 64 69 6e 67 3a 33 70 78 20 38 70 78 20 30 7d 74 64 7b 6c 69 6e 65 2d 68 65 69 67 68 74 3a 2e 38 65 6d 7d 2e 67 61 63 5f 6d 20 74 64 7b 6c 69 6e 65 2d 68 65 69 67 68 74 3a 31 37 70 78 7d 66 6f 72 6d 7b 6d 61 72 67 69 6e 2d 62 6f 74 74 6f 6d 3a 32 30 70 78 7d 2e 68 7b 63 6f 6c 6f
+
+[Ethernet Header (14 bytes)]
+  Destination address: 50:9a:4c:e2:d4:91
+  Source address: bc:30:5b:dd:d6:3c
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 52 [bytes]
+  Identification: 24401
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 64
+  Protocol: 6 (TCP)
+  Header checksum: 0xd9cb
+  Source address: /165.230.140.98
+  Destination address: /142.250.64.100
+[TCP Header (32 bytes)]
+  Source port: 45766 (unknown)
+  Destination port: 80 (HTTP)
+  Sequence Number: 2186289857
+  Acknowledgment Number: 3146741089
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 319
+  Checksum: 0x01ce
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3323649207] [TS Echo Reply: 3408080609]
+
+[Ethernet Header (14 bytes)]
+  Destination address: 50:9a:4c:e2:d4:91
+  Source address: bc:30:5b:dd:d6:3c
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 8 (Minimize Delay)] [mbz: 0]
+  Total length: 96 [bytes]
+  Identification: 63476
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 64
+  Protocol: 6 (TCP)
+  Header checksum: 0x263d
+  Source address: /165.230.140.98
+  Destination address: /24.187.209.82
+[TCP Header (32 bytes)]
+  Source port: 22 (SSH)
+  Destination port: 56472 (unknown)
+  Sequence Number: 2903763441
+  Acknowledgment Number: 846581710
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: true
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 317
+  Checksum: 0x1ca9
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3323649207] [TS Echo Reply: 719688081]
+[data (44 bytes)]
+  Hex stream: 57 7f 75 3b b9 ef b9 31 6e 5f 01 50 36 a9 71 98 c4 26 35 dd ae 69 cb 76 b3 e4 67 96 4c 2f f8 4a ab 0c c0 43 ca 9a 4d 85 39 29 8d bb
+
+[Ethernet Header (14 bytes)]
+  Destination address: bc:30:5b:dd:d6:3c
+  Source address: 50:9a:4c:e2:d4:91
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 1470 [bytes]
+  Identification: 26824
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 120
+  Protocol: 6 (TCP)
+  Header checksum: 0xd2ca
+  Source address: /142.250.64.100
+  Destination address: /165.230.140.98
+[TCP Header (32 bytes)]
+  Source port: 80 (HTTP)
+  Destination port: 45766 (unknown)
+  Sequence Number: 3146741089
+  Acknowledgment Number: 2186289857
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 261
+  Checksum: 0x1442
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3408080609] [TS Echo Reply: 3323649197]
+[data (1418 bytes)]
+  Hex stream: 72 3a 23 33 36 63 7d 2e 71 7b 63 6f 6c 6f 72 3a 23 30 30 63 7d 65 6d 7b 66 6f 6e 74 2d 77 65 69 67 68 74 3a 62 6f 6c 64 3b 66 6f 6e 74 2d 73 74 79 6c 65 3a 6e 6f 72 6d 61 6c 7d 2e 6c 73 74 7b 68 65 69 67 68 74 3a 32 35 70 78 3b 77 69 64 74 68 3a 34 39 36 70 78 7d 2e 67 73 66 69 2c 2e 6c 73 74 7b 66 6f 6e 74 3a 31 38 70 78 20 61 72 69 61 6c 2c 73 61 6e 73 2d 73 65 72 69 66 7d 2e 67 73 66 73 7b 66 6f 6e 74 3a 31 37 70 78 20 61 72 69 61 6c 2c 73 61 6e 73 2d 73 65 72 69 66 7d 2e 64 73 7b 64 69 73 70 6c 61 79 3a 69 6e 6c 69 6e 65 2d 62 6f 78 3b 64 69 73 70 6c 61 79 3a 69 6e 6c 69 6e 65 2d 62 6c 6f 63 6b 3b 6d 61 72 67 69 6e 3a 33 70 78 20 30 20 34 70 78 3b 6d 61 72 67 69 6e 2d 6c 65 66 74 3a 34 70 78 7d 69 6e 70 75 74 7b 66 6f 6e 74 2d 66 61 6d 69 6c 79 3a 69 6e 68 65 72 69 74 7d 62 6f 64 79 7b 62 61 63 6b 67 72 6f 75 6e 64 3a 23 66 66 66 3b 63 6f 6c 6f 72 3a 23 30 30 30 7d 61 7b 63 6f 6c 6f 72 3a 23 31 31 63 3b 74 65 78 74 2d 64 65 63 6f 72 61 74 69 6f 6e 3a 6e 6f 6e 65 7d 61 3a 68 6f 76 65 72 2c 61 3a 61 63 74 69 76 65 7b 74 65 78 74 2d 64 65 63 6f 72 61 74 69 6f 6e 3a 75 6e 64 65 72 6c 69 6e 65 7d 2e 66 6c 20 61 7b 63 6f 6c 6f 72 3a 23 33 36 63 7d 61 3a 76 69 73 69 74 65 64 7b 63 6f 6c 6f 72 3a 23 35 35 31 61 38 62 7d 2e 73 62 6c 63 7b 70 61 64 64 69 6e 67 2d 74 6f 70 3a 35 70 78 7d 2e 73 62 6c 63 20 61 7b 64 69 73 70 6c 61 79 3a 62 6c 6f 63 6b 3b 6d 61 72 67 69 6e 3a 32 70 78 20 30 3b 6d 61 72 67 69 6e 2d 6c 65 66 74 3a 31 33 70 78 3b 66 6f 6e 74 2d 73 69 7a 65 3a 31 31 70 78 7d 2e 6c 73 62 62 7b 62 61 63 6b 67 72 6f 75 6e 64 3a 23 65 65 65 3b 62 6f 72 64 65 72 3a 73 6f 6c 69 64 20 31 70 78 3b 62 6f 72 64 65 72 2d 63 6f 6c 6f 72 3a 23 63 63 63 20 23 39 39 39 20 23 39 39 39 20 23 63 63 63 3b 68 65 69 67 68 74 3a 33 30 70 78 7d 2e 6c 73 62 62 7b 64 69 73 70 6c 61 79 3a 62 6c 6f 63 6b 7d 23 57 71 51 41 4e 62 20 61 7b 64 69 73 70 6c 61 79 3a 69 6e 6c 69 6e 65 2d 62 6c 6f 63 6b 3b 6d 61 72 67 69 6e 3a 30 20 31 32 70 78 7d 2e 6c 73 62 7b 62 61 63 6b 67 72 6f 75 6e 64 3a 75 72 6c 28 2f 69 6d 61 67 65 73 2f 6e 61 76 5f 6c 6f 67 6f 32 32 39 2e 70 6e 67 29 20 30 20 2d 32 36 31 70 78 20 72 65 70 65 61 74 2d 78 3b 62 6f 72 64 65 72 3a 6e 6f 6e 65 3b 63 6f 6c 6f 72 3a 23 30 30 30 3b 63 75 72 73 6f 72 3a 70 6f 69 6e 74 65 72 3b 68 65 69 67 68 74 3a 33 30 70 78 3b 6d 61 72 67 69 6e 3a 30 3b 6f 75 74 6c 69 6e 65 3a 30 3b 66 6f 6e 74 3a 31 35 70 78 20 61 72 69 61 6c 2c 73 61 6e 73 2d 73 65 72 69 66 3b 76 65 72 74 69 63 61 6c 2d 61 6c 69 67 6e 3a 74 6f 70 7d 2e 6c 73 62 3a 61 63 74 69 76 65 7b 62 61 63 6b 67 72 6f 75 6e 64 3a 23 63 63 63 7d 2e 6c 73 74 3a 66 6f 63 75 73 7b 6f 75 74 6c 69 6e 65 3a 6e 6f 6e 65 7d 3c 2f 73 74 79 6c 65 3e 3c 73 63 72 69 70 74 20 6e 6f 6e 63 65 3d 22 71 5a 6f 69 31 67 67 70 69 72 61 4a 31 65 65 2f 33 5a 7a 62 71 67 3d 3d 22 3e 3c 2f 73 63 72 69 70 74 3e 3c 2f 68 65 61 64 3e 3c 62 6f 64 79 20 62 67 63 6f 6c 6f 72 3d 22 23 66 66 66 22 3e 3c 73 63 72 69 70 74 20 6e 6f 6e 63 65 3d 22 71 5a 6f 69 31 67 67 70 69 72 61 4a 31 65 65 2f 33 5a 7a 62 71 67 3d 3d 22 3e 28 66 75 6e 63 74 69 6f 6e 28 29 7b 76 61 72 20 73 72 63 3d 27 2f 69 6d 61 67 65 73 2f 6e 61 76 5f 6c 6f 67 6f 32 32 39 2e 70 6e 67 27 3b 76 61 72 20 69 65 73 67 3d 66 61 6c 73 65 3b 64 6f 63 75 6d 65 6e 74 2e 62 6f 64 79 2e 6f 6e 6c 6f 61 64 20 3d 20 66 75 6e 63 74 69 6f 6e 28 29 7b 77 69 6e 64 6f 77 2e 6e 20 26 26 20 77 69 6e 64 6f 77 2e 6e 28 29 3b 69 66 20 28 64 6f 63 75 6d 65 6e 74 2e 69 6d 61 67 65 73 29 7b 6e 65 77 20 49 6d 61 67 65 28 29 2e 73 72 63 3d 73 72 63 3b 7d 0a 69 66 20 28 21 69 65 73 67 29 7b 64 6f 63 75 6d 65 6e 74 2e 66 26 26 64 6f 63 75 6d 65 6e 74 2e 66 2e 71 2e 66 6f 63 75 73 28 29 3b 64 6f 63 75 6d 65 6e 74 2e 67 62 71 66 26 26 64 6f 63 75 6d 65 6e 74 2e 67 62 71 66 2e 71 2e 66 6f 63 75 73 28 29 3b 7d 0a 7d 0a 7d 29 28 29 3b 3c 2f 73 63 72 69 70 74 3e 3c 64 69 76 20 69 64 3d 22 6d 6e 67 62 22 3e 3c 64 69 76 20 69 64 3d 67 62 61 72 3e 3c 6e 6f 62 72 3e 3c 62 20 63 6c 61 73 73 3d 67 62 31 3e 53 65 61 72 63 68 3c 2f 62 3e 20 3c 61 20 63 6c 61 73 73 3d 67 62 31 20 68 72 65 66 3d 22 68 74 74 70 3a 2f 2f 77 77 77 2e 67 6f 6f 67 6c 65 2e 63 6f 6d 2f 69 6d 67 68 70 3f 68 6c 3d 65 6e 26 74 61 62 3d 77 69 22 3e 49 6d 61 67 65 73 3c 2f 61 3e 20 3c 61 20 63 6c 61 73 73 3d 67 62 31 20 68 72 65 66 3d 22
+
+[Ethernet Header (14 bytes)]
+  Destination address: 50:9a:4c:e2:d4:91
+  Source address: bc:30:5b:dd:d6:3c
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 52 [bytes]
+  Identification: 24402
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 64
+  Protocol: 6 (TCP)
+  Header checksum: 0xd9ca
+  Source address: /165.230.140.98
+  Destination address: /142.250.64.100
+[TCP Header (32 bytes)]
+  Source port: 45766 (unknown)
+  Destination port: 80 (HTTP)
+  Sequence Number: 2186289857
+  Acknowledgment Number: 3146742507
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 342
+  Checksum: 0x01ce
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3323649207] [TS Echo Reply: 3408080609]
+
+[Ethernet Header (14 bytes)]
+  Destination address: 50:9a:4c:e2:d4:91
+  Source address: bc:30:5b:dd:d6:3c
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 8 (Minimize Delay)] [mbz: 0]
+  Total length: 232 [bytes]
+  Identification: 63477
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 64
+  Protocol: 6 (TCP)
+  Header checksum: 0x25b4
+  Source address: /165.230.140.98
+  Destination address: /24.187.209.82
+[TCP Header (32 bytes)]
+  Source port: 22 (SSH)
+  Destination port: 56472 (unknown)
+  Sequence Number: 2903763485
+  Acknowledgment Number: 846581710
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: true
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 317
+  Checksum: 0x1d31
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3323649207] [TS Echo Reply: 719688081]
+[data (180 bytes)]
+  Hex stream: d6 7a d6 06 18 d8 7d a2 24 52 29 3f c0 68 05 47 9b 65 d8 35 24 ed 0b 4f 58 ae 5d d9 d2 59 65 38 e7 9e e7 69 04 a8 a0 57 44 71 d4 71 2e 55 04 08 6f 02 90 9b 2a 72 25 1b cb 7c 03 19 ce 00 d4 b4 5c 03 1c e3 f9 62 b8 d0 d2 1a 9b 2c 04 fc 47 8a bb 5a d0 b8 49 54 79 2f 93 dc e0 6d f3 62 39 89 ee 90 a4 c3 38 ea 5d cf 00 e3 8a 7b d9 f1 26 22 a2 2a e8 24 28 3e 7b 0b 44 ca c6 39 ad eb ea d7 b9 9a 2b ca 02 d3 5b 0f 98 a8 66 5b 96 3a 8b e0 8c 7d 6d 49 e9 35 15 49 31 c1 d4 77 ae 76 c1 7d a9 c0 e9 e5 25 4c f0 4a 08 71 e7 4d 52 1f a3 66 66 9b 4b 78
+
+[Ethernet Header (14 bytes)]
+  Destination address: bc:30:5b:dd:d6:3c
+  Source address: 50:9a:4c:e2:d4:91
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 1470 [bytes]
+  Identification: 26825
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 120
+  Protocol: 6 (TCP)
+  Header checksum: 0xd2c9
+  Source address: /142.250.64.100
+  Destination address: /165.230.140.98
+[TCP Header (32 bytes)]
+  Source port: 80 (HTTP)
+  Destination port: 45766 (unknown)
+  Sequence Number: 3146742507
+  Acknowledgment Number: 2186289857
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 261
+  Checksum: 0x340e
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3408080609] [TS Echo Reply: 3323649197]
+[data (1418 bytes)]
+  Hex stream: 68 74 74 70 3a 2f 2f 6d 61 70 73 2e 67 6f 6f 67 6c 65 2e 63 6f 6d 2f 6d 61 70 73 3f 68 6c 3d 65 6e 26 74 61 62 3d 77 6c 22 3e 4d 61 70 73 3c 2f 61 3e 20 3c 61 20 63 6c 61 73 73 3d 67 62 31 20 68 72 65 66 3d 22 68 74 74 70 73 3a 2f 2f 70 6c 61 79 2e 67 6f 6f 67 6c 65 2e 63 6f 6d 2f 3f 68 6c 3d 65 6e 26 74 61 62 3d 77 38 22 3e 50 6c 61 79 3c 2f 61 3e 20 3c 61 20 63 6c 61 73 73 3d 67 62 31 20 68 72 65 66 3d 22 68 74 74 70 3a 2f 2f 77 77 77 2e 79 6f 75 74 75 62 65 2e 63 6f 6d 2f 3f 67 6c 3d 55 53 26 74 61 62 3d 77 31 22 3e 59 6f 75 54 75 62 65 3c 2f 61 3e 20 3c 61 20 63 6c 61 73 73 3d 67 62 31 20 68 72 65 66 3d 22 68 74 74 70 73 3a 2f 2f 6e 65 77 73 2e 67 6f 6f 67 6c 65 2e 63 6f 6d 2f 3f 74 61 62 3d 77 6e 22 3e 4e 65 77 73 3c 2f 61 3e 20 3c 61 20 63 6c 61 73 73 3d 67 62 31 20 68 72 65 66 3d 22 68 74 74 70 73 3a 2f 2f 6d 61 69 6c 2e 67 6f 6f 67 6c 65 2e 63 6f 6d 2f 6d 61 69 6c 2f 3f 74 61 62 3d 77 6d 22 3e 47 6d 61 69 6c 3c 2f 61 3e 20 3c 61 20 63 6c 61 73 73 3d 67 62 31 20 68 72 65 66 3d 22 68 74 74 70 73 3a 2f 2f 64 72 69 76 65 2e 67 6f 6f 67 6c 65 2e 63 6f 6d 2f 3f 74 61 62 3d 77 6f 22 3e 44 72 69 76 65 3c 2f 61 3e 20 3c 61 20 63 6c 61 73 73 3d 67 62 31 20 73 74 79 6c 65 3d 22 74 65 78 74 2d 64 65 63 6f 72 61 74 69 6f 6e 3a 6e 6f 6e 65 22 20 68 72 65 66 3d 22 68 74 74 70 73 3a 2f 2f 77 77 77 2e 67 6f 6f 67 6c 65 2e 63 6f 6d 2f 69 6e 74 6c 2f 65 6e 2f 61 62 6f 75 74 2f 70 72 6f 64 75 63 74 73 3f 74 61 62 3d 77 68 22 3e 3c 75 3e 4d 6f 72 65 3c 2f 75 3e 20 26 72 61 71 75 6f 3b 3c 2f 61 3e 3c 2f 6e 6f 62 72 3e 3c 2f 64 69 76 3e 3c 64 69 76 20 69 64 3d 67 75 73 65 72 20 77 69 64 74 68 3d 31 30 30 25 3e 3c 6e 6f 62 72 3e 3c 73 70 61 6e 20 69 64 3d 67 62 6e 20 63 6c 61 73 73 3d 67 62 69 3e 3c 2f 73 70 61 6e 3e 3c 73 70 61 6e 20 69 64 3d 67 62 66 20 63 6c 61 73 73 3d 67 62 66 3e 3c 2f 73 70 61 6e 3e 3c 73 70 61 6e 20 69 64 3d 67 62 65 3e 3c 2f 73 70 61 6e 3e 3c 61 20 68 72 65 66 3d 22 68 74 74 70 3a 2f 2f 77 77 77 2e 67 6f 6f 67 6c 65 2e 63 6f 6d 2f 68 69 73 74 6f 72 79 2f 6f 70 74 6f 75 74 3f 68 6c 3d 65 6e 22 20 63 6c 61 73 73 3d 67 62 34 3e 57 65 62 20 48 69 73 74 6f 72 79 3c 2f 61 3e 20 7c 20 3c 61 20 20 68 72 65 66 3d 22 2f 70 72 65 66 65 72 65 6e 63 65 73 3f 68 6c 3d 65 6e 22 20 63 6c 61 73 73 3d 67 62 34 3e 53 65 74 74 69 6e 67 73 3c 2f 61 3e 20 7c 20 3c 61 20 74 61 72 67 65 74 3d 5f 74 6f 70 20 69 64 3d 67 62 5f 37 30 20 68 72 65 66 3d 22 68 74 74 70 73 3a 2f 2f 61 63 63 6f 75 6e 74 73 2e 67 6f 6f 67 6c 65 2e 63 6f 6d 2f 53 65 72 76 69 63 65 4c 6f 67 69 6e 3f 68 6c 3d 65 6e 26 70 61 73 73 69 76 65 3d 74 72 75 65 26 63 6f 6e 74 69 6e 75 65 3d 68 74 74 70 3a 2f 2f 77 77 77 2e 67 6f 6f 67 6c 65 2e 63 6f 6d 2f 26 65 63 3d 47 41 5a 41 41 51 22 20 63 6c 61 73 73 3d 67 62 34 3e 53 69 67 6e 20 69 6e 3c 2f 61 3e 3c 2f 6e 6f 62 72 3e 3c 2f 64 69 76 3e 3c 64 69 76 20 63 6c 61 73 73 3d 67 62 68 20 73 74 79 6c 65 3d 6c 65 66 74 3a 30 3e 3c 2f 64 69 76 3e 3c 64 69 76 20 63 6c 61 73 73 3d 67 62 68 20 73 74 79 6c 65 3d 72 69 67 68 74 3a 30 3e 3c 2f 64 69 76 3e 3c 2f 64 69 76 3e 3c 63 65 6e 74 65 72 3e 3c 62 72 20 63 6c 65 61 72 3d 22 61 6c 6c 22 20 69 64 3d 22 6c 67 70 64 22 3e 3c 64 69 76 20 69 64 3d 22 6c 67 61 22 3e 3c 69 6d 67 20 61 6c 74 3d 22 47 6f 6f 67 6c 65 22 20 68 65 69 67 68 74 3d 22 39 32 22 20 73 72 63 3d 22 2f 69 6d 61 67 65 73 2f 62 72 61 6e 64 69 6e 67 2f 67 6f 6f 67 6c 65 6c 6f 67 6f 2f 31 78 2f 67 6f 6f 67 6c 65 6c 6f 67 6f 5f 77 68 69 74 65 5f 62 61 63 6b 67 72 6f 75 6e 64 5f 63 6f 6c 6f 72 5f 32 37 32 78 39 32 64 70 2e 70 6e 67 22 20 73 74 79 6c 65 3d 22 70 61 64 64 69 6e 67 3a 32 38 70 78 20 30 20 31 34 70 78 22 20 77 69 64 74 68 3d 22 32 37 32 22 20 69 64 3d 22 68 70 6c 6f 67 6f 22 3e 3c 62 72 3e 3c 62 72 3e 3c 2f 64 69 76 3e 3c 66 6f 72 6d 20 61 63 74 69 6f 6e 3d 22 2f 73 65 61 72 63 68 22 20 6e 61 6d 65 3d 22 66 22 3e 3c 74 61 62 6c 65 20 63 65 6c 6c 70 61 64 64 69 6e 67 3d 22 30 22 20 63 65 6c 6c 73 70 61 63 69 6e 67 3d 22 30 22 3e 3c 74 72 20 76 61 6c 69 67 6e 3d 22 74 6f 70 22 3e 3c 74 64 20 77 69 64 74 68 3d 22 32 35 25 22 3e 26 6e 62 73 70 3b 3c 2f 74 64 3e 3c 74 64 20 61 6c 69 67 6e 3d 22 63 65 6e 74 65 72 22 20 6e 6f 77 72 61 70 3d 22 22 3e 3c 69 6e 70 75 74 20 6e 61 6d 65 3d 22 69 65 22 20 76 61 6c 75 65 3d 22 49 53 4f 2d 38 38 35 39 2d 31 22 20 74 79 70 65 3d
+
+[Ethernet Header (14 bytes)]
+  Destination address: 50:9a:4c:e2:d4:91
+  Source address: bc:30:5b:dd:d6:3c
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 52 [bytes]
+  Identification: 24403
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 64
+  Protocol: 6 (TCP)
+  Header checksum: 0xd9c9
+  Source address: /165.230.140.98
+  Destination address: /142.250.64.100
+[TCP Header (32 bytes)]
+  Source port: 45766 (unknown)
+  Destination port: 80 (HTTP)
+  Sequence Number: 2186289857
+  Acknowledgment Number: 3146743925
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 364
+  Checksum: 0x01ce
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3323649207] [TS Echo Reply: 3408080609]
+
+[Ethernet Header (14 bytes)]
+  Destination address: bc:30:5b:dd:d6:3c
+  Source address: 50:9a:4c:e2:d4:91
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 1470 [bytes]
+  Identification: 26826
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 120
+  Protocol: 6 (TCP)
+  Header checksum: 0xd2c8
+  Source address: /142.250.64.100
+  Destination address: /165.230.140.98
+[TCP Header (32 bytes)]
+  Source port: 80 (HTTP)
+  Destination port: 45766 (unknown)
+  Sequence Number: 3146743925
+  Acknowledgment Number: 2186289857
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 261
+  Checksum: 0xf909
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3408080609] [TS Echo Reply: 3323649197]
+[data (1418 bytes)]
+  Hex stream: 22 68 69 64 64 65 6e 22 3e 3c 69 6e 70 75 74 20 76 61 6c 75 65 3d 22 65 6e 22 20 6e 61 6d 65 3d 22 68 6c 22 20 74 79 70 65 3d 22 68 69 64 64 65 6e 22 3e 3c 69 6e 70 75 74 20 6e 61 6d 65 3d 22 73 6f 75 72 63 65 22 20 74 79 70 65 3d 22 68 69 64 64 65 6e 22 20 76 61 6c 75 65 3d 22 68 70 22 3e 3c 69 6e 70 75 74 20 6e 61 6d 65 3d 22 62 69 77 22 20 74 79 70 65 3d 22 68 69 64 64 65 6e 22 3e 3c 69 6e 70 75 74 20 6e 61 6d 65 3d 22 62 69 68 22 20 74 79 70 65 3d 22 68 69 64 64 65 6e 22 3e 3c 64 69 76 20 63 6c 61 73 73 3d 22 64 73 22 20 73 74 79 6c 65 3d 22 68 65 69 67 68 74 3a 33 32 70 78 3b 6d 61 72 67 69 6e 3a 34 70 78 20 30 22 3e 3c 69 6e 70 75 74 20 63 6c 61 73 73 3d 22 6c 73 74 22 20 73 74 79 6c 65 3d 22 6d 61 72 67 69 6e 3a 30 3b 70 61 64 64 69 6e 67 3a 35 70 78 20 38 70 78 20 30 20 36 70 78 3b 76 65 72 74 69 63 61 6c 2d 61 6c 69 67 6e 3a 74 6f 70 3b 63 6f 6c 6f 72 3a 23 30 30 30 22 20 61 75 74 6f 63 6f 6d 70 6c 65 74 65 3d 22 6f 66 66 22 20 76 61 6c 75 65 3d 22 22 20 74 69 74 6c 65 3d 22 47 6f 6f 67 6c 65 20 53 65 61 72 63 68 22 20 6d 61 78 6c 65 6e 67 74 68 3d 22 32 30 34 38 22 20 6e 61 6d 65 3d 22 71 22 20 73 69 7a 65 3d 22 35 37 22 3e 3c 2f 64 69 76 3e 3c 62 72 20 73 74 79 6c 65 3d 22 6c 69 6e 65 2d 68 65 69 67 68 74 3a 30 22 3e 3c 73 70 61 6e 20 63 6c 61 73 73 3d 22 64 73 22 3e 3c 73 70 61 6e 20 63 6c 61 73 73 3d 22 6c 73 62 62 22 3e 3c 69 6e 70 75 74 20 63 6c 61 73 73 3d 22 6c 73 62 22 20 76 61 6c 75 65 3d 22 47 6f 6f 67 6c 65 20 53 65 61 72 63 68 22 20 6e 61 6d 65 3d 22 62 74 6e 47 22 20 74 79 70 65 3d 22 73 75 62 6d 69 74 22 3e 3c 2f 73 70 61 6e 3e 3c 2f 73 70 61 6e 3e 3c 73 70 61 6e 20 63 6c 61 73 73 3d 22 64 73 22 3e 3c 73 70 61 6e 20 63 6c 61 73 73 3d 22 6c 73 62 62 22 3e 3c 69 6e 70 75 74 20 63 6c 61 73 73 3d 22 6c 73 62 22 20 69 64 3d 22 74 73 75 69 64 31 22 20 76 61 6c 75 65 3d 22 49 27 6d 20 46 65 65 6c 69 6e 67 20 4c 75 63 6b 79 22 20 6e 61 6d 65 3d 22 62 74 6e 49 22 20 74 79 70 65 3d 22 73 75 62 6d 69 74 22 3e 3c 73 63 72 69 70 74 20 6e 6f 6e 63 65 3d 22 71 5a 6f 69 31 67 67 70 69 72 61 4a 31 65 65 2f 33 5a 7a 62 71 67 3d 3d 22 3e 28 66 75 6e 63 74 69 6f 6e 28 29 7b 76 61 72 20 69 64 3d 27 74 73 75 69 64 31 27 3b 64 6f 63 75 6d 65 6e 74 2e 67 65 74 45 6c 65 6d 65 6e 74 42 79 49 64 28 69 64 29 2e 6f 6e 63 6c 69 63 6b 20 3d 20 66 75 6e 63 74 69 6f 6e 28 29 7b 69 66 20 28 74 68 69 73 2e 66 6f 72 6d 2e 71 2e 76 61 6c 75 65 29 7b 74 68 69 73 2e 63 68 65 63 6b 65 64 20 3d 20 31 3b 69 66 20 28 74 68 69 73 2e 66 6f 72 6d 2e 69 66 6c 73 69 67 29 74 68 69 73 2e 66 6f 72 6d 2e 69 66 6c 73 69 67 2e 64 69 73 61 62 6c 65 64 20 3d 20 66 61 6c 73 65 3b 7d 0a 65 6c 73 65 20 74 6f 70 2e 6c 6f 63 61 74 69 6f 6e 3d 27 2f 64 6f 6f 64 6c 65 73 2f 27 3b 7d 3b 7d 29 28 29 3b 3c 2f 73 63 72 69 70 74 3e 3c 69 6e 70 75 74 20 76 61 6c 75 65 3d 22 41 49 4e 46 43 62 59 41 41 41 41 41 58 36 6c 76 5f 74 73 34 6e 6f 31 66 38 57 61 6c 65 6d 30 75 69 34 6f 32 49 53 50 4c 36 50 70 6b 22 20 6e 61 6d 65 3d 22 69 66 6c 73 69 67 22 20 74 79 70 65 3d 22 68 69 64 64 65 6e 22 3e 3c 2f 73 70 61 6e 3e 3c 2f 73 70 61 6e 3e 3c 2f 74 64 3e 3c 74 64 20 63 6c 61 73 73 3d 22 66 6c 20 73 62 6c 63 22 20 61 6c 69 67 6e 3d 22 6c 65 66 74 22 20 6e 6f 77 72 61 70 3d 22 22 20 77 69 64 74 68 3d 22 32 35 25 22 3e 3c 61 20 68 72 65 66 3d 22 2f 61 64 76 61 6e 63 65 64 5f 73 65 61 72 63 68 3f 68 6c 3d 65 6e 26 61 6d 70 3b 61 75 74 68 75 73 65 72 3d 30 22 3e 41 64 76 61 6e 63 65 64 20 73 65 61 72 63 68 3c 2f 61 3e 3c 2f 74 64 3e 3c 2f 74 72 3e 3c 2f 74 61 62 6c 65 3e 3c 69 6e 70 75 74 20 69 64 3d 22 67 62 76 22 20 6e 61 6d 65 3d 22 67 62 76 22 20 74 79 70 65 3d 22 68 69 64 64 65 6e 22 20 76 61 6c 75 65 3d 22 31 22 3e 3c 73 63 72 69 70 74 20 6e 6f 6e 63 65 3d 22 71 5a 6f 69 31 67 67 70 69 72 61 4a 31 65 65 2f 33 5a 7a 62 71 67 3d 3d 22 3e 28 66 75 6e 63 74 69 6f 6e 28 29 7b 76 61 72 20 61 2c 62 3d 22 31 22 3b 69 66 28 64 6f 63 75 6d 65 6e 74 26 26 64 6f 63 75 6d 65 6e 74 2e 67 65 74 45 6c 65 6d 65 6e 74 42 79 49 64 29 69 66 28 22 75 6e 64 65 66 69 6e 65 64 22 21 3d 74 79 70 65 6f 66 20 58 4d 4c 48 74 74 70 52 65 71 75 65 73 74 29 62 3d 22 32 22 3b 65 6c 73 65 20 69 66 28 22 75 6e 64 65 66 69 6e 65 64 22 21 3d 74 79 70 65 6f 66 20 41 63 74 69 76 65 58 4f 62 6a 65 63 74 29 7b 76 61 72 20 63 2c 64 2c 65 3d 5b 22 4d 53 58 4d 4c 32
+
+[Ethernet Header (14 bytes)]
+  Destination address: 50:9a:4c:e2:d4:91
+  Source address: bc:30:5b:dd:d6:3c
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 52 [bytes]
+  Identification: 24404
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 64
+  Protocol: 6 (TCP)
+  Header checksum: 0xd9c8
+  Source address: /165.230.140.98
+  Destination address: /142.250.64.100
+[TCP Header (32 bytes)]
+  Source port: 45766 (unknown)
+  Destination port: 80 (HTTP)
+  Sequence Number: 2186289857
+  Acknowledgment Number: 3146745343
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 387
+  Checksum: 0x01ce
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3323649207] [TS Echo Reply: 3408080609]
+
+[Ethernet Header (14 bytes)]
+  Destination address: bc:30:5b:dd:d6:3c
+  Source address: 50:9a:4c:e2:d4:91
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 1470 [bytes]
+  Identification: 26827
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 120
+  Protocol: 6 (TCP)
+  Header checksum: 0xd2c7
+  Source address: /142.250.64.100
+  Destination address: /165.230.140.98
+[TCP Header (32 bytes)]
+  Source port: 80 (HTTP)
+  Destination port: 45766 (unknown)
+  Sequence Number: 3146745343
+  Acknowledgment Number: 2186289857
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 261
+  Checksum: 0xc5b1
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3408080609] [TS Echo Reply: 3323649197]
+[data (1418 bytes)]
+  Hex stream: 2e 58 4d 4c 48 54 54 50 2e 36 2e 30 22 2c 22 4d 53 58 4d 4c 32 2e 58 4d 4c 48 54 54 50 2e 33 2e 30 22 2c 22 4d 53 58 4d 4c 32 2e 58 4d 4c 48 54 54 50 22 2c 22 4d 69 63 72 6f 73 6f 66 74 2e 58 4d 4c 48 54 54 50 22 5d 3b 66 6f 72 28 63 3d 30 3b 64 3d 65 5b 63 2b 2b 5d 3b 29 74 72 79 7b 6e 65 77 20 41 63 74 69 76 65 58 4f 62 6a 65 63 74 28 64 29 2c 62 3d 22 32 22 7d 63 61 74 63 68 28 68 29 7b 7d 7d 61 3d 62 3b 69 66 28 22 32 22 3d 3d 61 26 26 2d 31 3d 3d 6c 6f 63 61 74 69 6f 6e 2e 73 65 61 72 63 68 2e 69 6e 64 65 78 4f 66 28 22 26 67 62 76 3d 32 22 29 29 7b 76 61 72 20 66 3d 67 6f 6f 67 6c 65 2e 67 62 76 75 2c 67 3d 64 6f 63 75 6d 65 6e 74 2e 67 65 74 45 6c 65 6d 65 6e 74 42 79 49 64 28 22 67 62 76 22 29 3b 67 26 26 28 67 2e 76 61 6c 75 65 3d 61 29 3b 66 26 26 77 69 6e 64 6f 77 2e 73 65 74 54 69 6d 65 6f 75 74 28 66 75 6e 63 74 69 6f 6e 28 29 7b 6c 6f 63 61 74 69 6f 6e 2e 68 72 65 66 3d 66 7d 2c 30 29 7d 3b 7d 29 2e 63 61 6c 6c 28 74 68 69 73 29 3b 3c 2f 73 63 72 69 70 74 3e 3c 2f 66 6f 72 6d 3e 3c 64 69 76 20 69 64 3d 22 67 61 63 5f 73 63 6f 6e 74 22 3e 3c 2f 64 69 76 3e 3c 64 69 76 20 73 74 79 6c 65 3d 22 66 6f 6e 74 2d 73 69 7a 65 3a 38 33 25 3b 6d 69 6e 2d 68 65 69 67 68 74 3a 33 2e 35 65 6d 22 3e 3c 62 72 3e 3c 2f 64 69 76 3e 3c 73 70 61 6e 20 69 64 3d 22 66 6f 6f 74 65 72 22 3e 3c 64 69 76 20 73 74 79 6c 65 3d 22 66 6f 6e 74 2d 73 69 7a 65 3a 31 30 70 74 22 3e 3c 64 69 76 20 73 74 79 6c 65 3d 22 6d 61 72 67 69 6e 3a 31 39 70 78 20 61 75 74 6f 3b 74 65 78 74 2d 61 6c 69 67 6e 3a 63 65 6e 74 65 72 22 20 69 64 3d 22 57 71 51 41 4e 62 22 3e 3c 61 20 68 72 65 66 3d 22 2f 69 6e 74 6c 2f 65 6e 2f 61 64 73 2f 22 3e 41 64 76 65 72 74 69 73 69 6e 67 a0 50 72 6f 67 72 61 6d 73 3c 2f 61 3e 3c 61 20 68 72 65 66 3d 22 2f 73 65 72 76 69 63 65 73 2f 22 3e 42 75 73 69 6e 65 73 73 20 53 6f 6c 75 74 69 6f 6e 73 3c 2f 61 3e 3c 61 20 68 72 65 66 3d 22 2f 69 6e 74 6c 2f 65 6e 2f 61 62 6f 75 74 2e 68 74 6d 6c 22 3e 41 62 6f 75 74 20 47 6f 6f 67 6c 65 3c 2f 61 3e 3c 2f 64 69 76 3e 3c 2f 64 69 76 3e 3c 70 20 73 74 79 6c 65 3d 22 66 6f 6e 74 2d 73 69 7a 65 3a 38 70 74 3b 63 6f 6c 6f 72 3a 23 37 36 37 36 37 36 22 3e 26 63 6f 70 79 3b 20 32 30 32 30 20 2d 20 3c 61 20 68 72 65 66 3d 22 2f 69 6e 74 6c 2f 65 6e 2f 70 6f 6c 69 63 69 65 73 2f 70 72 69 76 61 63 79 2f 22 3e 50 72 69 76 61 63 79 3c 2f 61 3e 20 2d 20 3c 61 20 68 72 65 66 3d 22 2f 69 6e 74 6c 2f 65 6e 2f 70 6f 6c 69 63 69 65 73 2f 74 65 72 6d 73 2f 22 3e 54 65 72 6d 73 3c 2f 61 3e 3c 2f 70 3e 3c 2f 73 70 61 6e 3e 3c 2f 63 65 6e 74 65 72 3e 3c 73 63 72 69 70 74 20 6e 6f 6e 63 65 3d 22 71 5a 6f 69 31 67 67 70 69 72 61 4a 31 65 65 2f 33 5a 7a 62 71 67 3d 3d 22 3e 28 66 75 6e 63 74 69 6f 6e 28 29 7b 77 69 6e 64 6f 77 2e 67 6f 6f 67 6c 65 2e 63 64 6f 3d 7b 68 65 69 67 68 74 3a 30 2c 77 69 64 74 68 3a 30 7d 3b 28 66 75 6e 63 74 69 6f 6e 28 29 7b 76 61 72 20 61 3d 77 69 6e 64 6f 77 2e 69 6e 6e 65 72 57 69 64 74 68 2c 62 3d 77 69 6e 64 6f 77 2e 69 6e 6e 65 72 48 65 69 67 68 74 3b 69 66 28 21 61 7c 7c 21 62 29 7b 76 61 72 20 63 3d 77 69 6e 64 6f 77 2e 64 6f 63 75 6d 65 6e 74 2c 64 3d 22 43 53 53 31 43 6f 6d 70 61 74 22 3d 3d 63 2e 63 6f 6d 70 61 74 4d 6f 64 65 3f 63 2e 64 6f 63 75 6d 65 6e 74 45 6c 65 6d 65 6e 74 3a 63 2e 62 6f 64 79 3b 61 3d 64 2e 63 6c 69 65 6e 74 57 69 64 74 68 3b 62 3d 64 2e 63 6c 69 65 6e 74 48 65 69 67 68 74 7d 61 26 26 62 26 26 28 61 21 3d 67 6f 6f 67 6c 65 2e 63 64 6f 2e 77 69 64 74 68 7c 7c 62 21 3d 67 6f 6f 67 6c 65 2e 63 64 6f 2e 68 65 69 67 68 74 29 26 26 67 6f 6f 67 6c 65 2e 6c 6f 67 28 22 22 2c 22 22 2c 22 2f 63 6c 69 65 6e 74 5f 32 30 34 3f 26 61 74 79 70 3d 69 26 62 69 77 3d 22 2b 61 2b 22 26 62 69 68 3d 22 2b 62 2b 22 26 65 69 3d 22 2b 67 6f 6f 67 6c 65 2e 6b 45 49 29 3b 7d 29 2e 63 61 6c 6c 28 74 68 69 73 29 3b 7d 29 28 29 3b 28 66 75 6e 63 74 69 6f 6e 28 29 7b 76 61 72 20 75 3d 27 2f 78 6a 73 2f 5f 2f 6a 73 2f 6b 5c 78 33 64 78 6a 73 2e 68 70 2e 65 6e 5f 55 53 2e 57 52 50 49 5a 78 68 54 47 2d 67 2e 4f 2f 6d 5c 78 33 64 73 62 5f 68 65 2c 64 2f 61 6d 5c 78 33 64 41 44 78 42 48 41 2f 64 5c 78 33 64 31 2f 72 73 5c 78 33 64 41 43 54 39 30 6f 45 53 79 35 72 6f 5a 59 58 35 35 69 6c 62 59 76 36 54 42 6b 69 37 6e 46 4d 53 59 67 27 3b 0a 76 61 72 20 63 3d 74 68 69 73 7c 7c 73 65 6c 66 2c 65 3d 2f 5e 5b 5c 77 2b 2f 5f 2d 5d 2b
+
+[Ethernet Header (14 bytes)]
+  Destination address: 50:9a:4c:e2:d4:91
+  Source address: bc:30:5b:dd:d6:3c
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 52 [bytes]
+  Identification: 24405
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 64
+  Protocol: 6 (TCP)
+  Header checksum: 0xd9c7
+  Source address: /165.230.140.98
+  Destination address: /142.250.64.100
+[TCP Header (32 bytes)]
+  Source port: 45766 (unknown)
+  Destination port: 80 (HTTP)
+  Sequence Number: 2186289857
+  Acknowledgment Number: 3146746761
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 410
+  Checksum: 0x01ce
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3323649207] [TS Echo Reply: 3408080609]
+
+[Ethernet Header (14 bytes)]
+  Destination address: bc:30:5b:dd:d6:3c
+  Source address: 50:9a:4c:e2:d4:91
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 1470 [bytes]
+  Identification: 26828
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 120
+  Protocol: 6 (TCP)
+  Header checksum: 0xd2c6
+  Source address: /142.250.64.100
+  Destination address: /165.230.140.98
+[TCP Header (32 bytes)]
+  Source port: 80 (HTTP)
+  Destination port: 45766 (unknown)
+  Sequence Number: 3146746761
+  Acknowledgment Number: 2186289857
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 261
+  Checksum: 0xa2aa
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3408080609] [TS Echo Reply: 3323649197]
+[data (1418 bytes)]
+  Hex stream: 5b 3d 5d 7b 30 2c 32 7d 24 2f 2c 66 3d 6e 75 6c 6c 2c 67 3d 66 75 6e 63 74 69 6f 6e 28 61 29 7b 72 65 74 75 72 6e 28 61 3d 61 2e 71 75 65 72 79 53 65 6c 65 63 74 6f 72 26 26 61 2e 71 75 65 72 79 53 65 6c 65 63 74 6f 72 28 22 73 63 72 69 70 74 5b 6e 6f 6e 63 65 5d 22 29 29 26 26 28 61 3d 61 2e 6e 6f 6e 63 65 7c 7c 61 2e 67 65 74 41 74 74 72 69 62 75 74 65 28 22 6e 6f 6e 63 65 22 29 29 26 26 65 2e 74 65 73 74 28 61 29 3f 61 3a 22 22 7d 2c 68 3d 66 75 6e 63 74 69 6f 6e 28 61 29 7b 72 65 74 75 72 6e 20 61 7d 3b 76 61 72 20 6c 3b 76 61 72 20 6e 3d 66 75 6e 63 74 69 6f 6e 28 61 2c 62 29 7b 74 68 69 73 2e 61 3d 62 3d 3d 3d 6d 3f 61 3a 22 22 7d 2c 6d 3d 7b 7d 3b 73 65 74 54 69 6d 65 6f 75 74 28 66 75 6e 63 74 69 6f 6e 28 29 7b 76 61 72 20 61 3d 64 6f 63 75 6d 65 6e 74 3b 76 61 72 20 62 3d 22 53 43 52 49 50 54 22 3b 22 61 70 70 6c 69 63 61 74 69 6f 6e 2f 78 68 74 6d 6c 2b 78 6d 6c 22 3d 3d 3d 61 2e 63 6f 6e 74 65 6e 74 54 79 70 65 26 26 28 62 3d 62 2e 74 6f 4c 6f 77 65 72 43 61 73 65 28 29 29 3b 62 3d 61 2e 63 72 65 61 74 65 45 6c 65 6d 65 6e 74 28 62 29 3b 61 3d 75 3b 69 66 28 76 6f 69 64 20 30 3d 3d 3d 6c 29 7b 76 61 72 20 64 3d 6e 75 6c 6c 3b 76 61 72 20 6b 3d 63 2e 74 72 75 73 74 65 64 54 79 70 65 73 3b 69 66 28 6b 26 26 6b 2e 63 72 65 61 74 65 50 6f 6c 69 63 79 29 7b 74 72 79 7b 64 3d 6b 2e 63 72 65 61 74 65 50 6f 6c 69 63 79 28 22 67 6f 6f 67 23 68 74 6d 6c 22 2c 7b 63 72 65 61 74 65 48 54 4d 4c 3a 68 2c 63 72 65 61 74 65 53 63 72 69 70 74 3a 68 2c 63 72 65 61 74 65 53 63 72 69 70 74 55 52 4c 3a 68 7d 29 7d 63 61 74 63 68 28 70 29 7b 63 2e 63 6f 6e 73 6f 6c 65 26 26 63 2e 63 6f 6e 73 6f 6c 65 2e 65 72 72 6f 72 28 70 2e 6d 65 73 73 61 67 65 29 7d 6c 3d 64 7d 65 6c 73 65 20 6c 3d 64 7d 61 3d 28 64 3d 6c 29 3f 64 2e 63 72 65 61 74 65 53 63 72 69 70 74 55 52 4c 28 61 29 3a 61 3b 61 3d 6e 65 77 20 6e 28 61 2c 6d 29 3b 62 2e 73 72 63 3d 61 20 69 6e 73 74 61 6e 63 65 6f 66 20 6e 26 26 61 2e 63 6f 6e 73 74 72 75 63 74 6f 72 3d 3d 3d 6e 3f 61 2e 61 3a 22 74 79 70 65 5f 65 72 72 6f 72 3a 54 72 75 73 74 65 64 52 65 73 6f 75 72 63 65 55 72 6c 22 3b 28 61 3d 62 2e 6f 77 6e 65 72 44 6f 63 75 6d 65 6e 74 26 26 62 2e 6f 77 6e 65 72 44 6f 63 75 6d 65 6e 74 2e 64 65 66 61 75 6c 74 56 69 65 77 29 26 26 0a 61 21 3d 63 3f 61 3d 67 28 61 2e 64 6f 63 75 6d 65 6e 74 29 3a 28 6e 75 6c 6c 3d 3d 3d 66 26 26 28 66 3d 67 28 63 2e 64 6f 63 75 6d 65 6e 74 29 29 2c 61 3d 66 29 3b 61 26 26 62 2e 73 65 74 41 74 74 72 69 62 75 74 65 28 22 6e 6f 6e 63 65 22 2c 61 29 3b 67 6f 6f 67 6c 65 2e 74 69 6d 65 72 73 26 26 67 6f 6f 67 6c 65 2e 74 69 6d 65 72 73 2e 6c 6f 61 64 26 26 67 6f 6f 67 6c 65 2e 74 69 63 6b 26 26 67 6f 6f 67 6c 65 2e 74 69 63 6b 28 22 6c 6f 61 64 22 2c 22 78 6a 73 6c 73 22 29 3b 64 6f 63 75 6d 65 6e 74 2e 62 6f 64 79 2e 61 70 70 65 6e 64 43 68 69 6c 64 28 62 29 7d 2c 30 29 3b 7d 29 28 29 3b 28 66 75 6e 63 74 69 6f 6e 28 29 7b 77 69 6e 64 6f 77 2e 67 6f 6f 67 6c 65 2e 78 6a 73 75 3d 27 2f 78 6a 73 2f 5f 2f 6a 73 2f 6b 5c 78 33 64 78 6a 73 2e 68 70 2e 65 6e 5f 55 53 2e 57 52 50 49 5a 78 68 54 47 2d 67 2e 4f 2f 6d 5c 78 33 64 73 62 5f 68 65 2c 64 2f 61 6d 5c 78 33 64 41 44 78 42 48 41 2f 64 5c 78 33 64 31 2f 72 73 5c 78 33 64 41 43 54 39 30 6f 45 53 79 35 72 6f 5a 59 58 35 35 69 6c 62 59 76 36 54 42 6b 69 37 6e 46 4d 53 59 67 27 3b 7d 29 28 29 3b 66 75 6e 63 74 69 6f 6e 20 5f 44 75 6d 70 45 78 63 65 70 74 69 6f 6e 28 65 29 7b 74 68 72 6f 77 20 65 3b 7d 0a 66 75 6e 63 74 69 6f 6e 20 5f 46 5f 69 6e 73 74 61 6c 6c 43 73 73 28 63 29 7b 7d 0a 28 66 75 6e 63 74 69 6f 6e 28 29 7b 67 6f 6f 67 6c 65 2e 6a 6c 3d 7b 64 77 3a 66 61 6c 73 65 2c 65 6d 3a 5b 5d 2c 65 6d 77 3a 66 61 6c 73 65 2c 6c 6c 73 3a 27 64 65 66 61 75 6c 74 27 2c 70 64 74 3a 30 2c 73 6e 65 74 3a 74 72 75 65 2c 75 77 70 3a 74 72 75 65 7d 3b 7d 29 28 29 3b 28 66 75 6e 63 74 69 6f 6e 28 29 7b 76 61 72 20 70 6d 63 3d 27 7b 5c 78 32 32 64 5c 78 32 32 3a 7b 7d 2c 5c 78 32 32 73 62 5f 68 65 5c 78 32 32 3a 7b 5c 78 32 32 61 67 65 6e 5c 78 32 32 3a 74 72 75 65 2c 5c 78 32 32 63 67 65 6e 5c 78 32 32 3a 74 72 75 65 2c 5c 78 32 32 63 6c 69 65 6e 74 5c 78 32 32 3a 5c 78 32 32 68 65 69 72 6c 6f 6f 6d 2d 68 70 5c 78 32 32 2c 5c 78 32 32 64 68 5c 78 32 32 3a 74 72 75 65 2c 5c 78 32 32 64 68 71 74 5c 78 32 32 3a 74 72 75 65 2c 5c 78 32 32 64 73 5c 78 32 32 3a 5c
+
+[Ethernet Header (14 bytes)]
+  Destination address: 50:9a:4c:e2:d4:91
+  Source address: bc:30:5b:dd:d6:3c
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 52 [bytes]
+  Identification: 24406
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 64
+  Protocol: 6 (TCP)
+  Header checksum: 0xd9c6
+  Source address: /165.230.140.98
+  Destination address: /142.250.64.100
+[TCP Header (32 bytes)]
+  Source port: 45766 (unknown)
+  Destination port: 80 (HTTP)
+  Sequence Number: 2186289857
+  Acknowledgment Number: 3146748179
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 432
+  Checksum: 0x01ce
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3323649207] [TS Echo Reply: 3408080609]
+
+[Ethernet Header (14 bytes)]
+  Destination address: bc:30:5b:dd:d6:3c
+  Source address: 50:9a:4c:e2:d4:91
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 937 [bytes]
+  Identification: 26829
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 120
+  Protocol: 6 (TCP)
+  Header checksum: 0xd4da
+  Source address: /142.250.64.100
+  Destination address: /165.230.140.98
+[TCP Header (32 bytes)]
+  Source port: 80 (HTTP)
+  Destination port: 45766 (unknown)
+  Sequence Number: 3146748179
+  Acknowledgment Number: 2186289857
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: true
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 261
+  Checksum: 0x1cc9
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3408080609] [TS Echo Reply: 3323649197]
+[data (885 bytes)]
+  Hex stream: 78 32 32 5c 78 32 32 2c 5c 78 32 32 66 66 71 6c 5c 78 32 32 3a 5c 78 32 32 65 6e 5c 78 32 32 2c 5c 78 32 32 66 6c 5c 78 32 32 3a 74 72 75 65 2c 5c 78 32 32 68 6f 73 74 5c 78 32 32 3a 5c 78 32 32 67 6f 6f 67 6c 65 2e 63 6f 6d 5c 78 32 32 2c 5c 78 32 32 69 73 62 68 5c 78 32 32 3a 32 38 2c 5c 78 32 32 6a 73 6f 6e 70 5c 78 32 32 3a 74 72 75 65 2c 5c 78 32 32 6d 73 67 73 5c 78 32 32 3a 7b 5c 78 32 32 63 69 62 6c 5c 78 32 32 3a 5c 78 32 32 43 6c 65 61 72 20 53 65 61 72 63 68 5c 78 32 32 2c 5c 78 32 32 64 79 6d 5c 78 32 32 3a 5c 78 32 32 44 69 64 20 79 6f 75 20 6d 65 61 6e 3a 5c 78 32 32 2c 5c 78 32 32 6c 63 6b 79 5c 78 32 32 3a 5c 78 32 32 49 5c 5c 75 30 30 32 36 23 33 39 3b 6d 20 46 65 65 6c 69 6e 67 20 4c 75 63 6b 79 5c 78 32 32 2c 5c 78 32 32 6c 6d 6c 5c 78 32 32 3a 5c 78 32 32 4c 65 61 72 6e 20 6d 6f 72 65 5c 78 32 32 2c 5c 78 32 32 6f 73 6b 74 5c 78 32 32 3a 5c 78 32 32 49 6e 70 75 74 20 74 6f 6f 6c 73 5c 78 32 32 2c 5c 78 32 32 70 73 72 63 5c 78 32 32 3a 5c 78 32 32 54 68 69 73 20 73 65 61 72 63 68 20 77 61 73 20 72 65 6d 6f 76 65 64 20 66 72 6f 6d 20 79 6f 75 72 20 5c 5c 75 30 30 33 43 61 20 68 72 65 66 5c 78 33 64 5c 5c 5c 78 32 32 2f 68 69 73 74 6f 72 79 5c 5c 5c 78 32 32 5c 5c 75 30 30 33 45 57 65 62 20 48 69 73 74 6f 72 79 5c 5c 75 30 30 33 43 2f 61 5c 5c 75 30 30 33 45 5c 78 32 32 2c 5c 78 32 32 70 73 72 6c 5c 78 32 32 3a 5c 78 32 32 52 65 6d 6f 76 65 5c 78 32 32 2c 5c 78 32 32 73 62 69 74 5c 78 32 32 3a 5c 78 32 32 53 65 61 72 63 68 20 62 79 20 69 6d 61 67 65 5c 78 32 32 2c 5c 78 32 32 73 72 63 68 5c 78 32 32 3a 5c 78 32 32 47 6f 6f 67 6c 65 20 53 65 61 72 63 68 5c 78 32 32 7d 2c 5c 78 32 32 6e 72 66 74 5c 78 32 32 3a 66 61 6c 73 65 2c 5c 78 32 32 6f 76 72 5c 78 32 32 3a 7b 7d 2c 5c 78 32 32 70 71 5c 78 32 32 3a 5c 78 32 32 5c 78 32 32 2c 5c 78 32 32 72 65 66 70 64 5c 78 32 32 3a 74 72 75 65 2c 5c 78 32 32 72 66 73 5c 78 32 32 3a 5b 5d 2c 5c 78 32 32 73 62 61 73 5c 78 32 32 3a 5c 78 32 32 30 20 33 70 78 20 38 70 78 20 30 20 72 67 62 61 28 30 2c 30 2c 30 2c 30 2e 32 29 2c 30 20 30 20 30 20 31 70 78 20 72 67 62 61 28 30 2c 30 2c 30 2c 30 2e 30 38 29 5c 78 32 32 2c 5c 78 32 32 73 62 70 6c 5c 78 32 32 3a 31 36 2c 5c 78 32 32 73 62 70 72 5c 78 32 32 3a 31 36 2c 5c 78 32 32 73 63 64 5c 78 32 32 3a 31 30 2c 5c 78 32 32 73 74 6f 6b 5c 78 32 32 3a 5c 78 32 32 56 59 74 58 47 4a 6b 6a 55 75 6e 31 74 35 51 6a 33 7a 45 65 6f 64 6e 71 33 59 6f 5c 78 32 32 2c 5c 78 32 32 75 68 64 65 5c 78 32 32 3a 66 61 6c 73 65 7d 7d 27 3b 67 6f 6f 67 6c 65 2e 70 6d 63 3d 4a 53 4f 4e 2e 70 61 72 73 65 28 70 6d 63 29 3b 7d 29 28 29 3b 3c 2f 73 63 72 69 70 74 3e 20 20 20 20 20 20 20 20 3c 2f 62 6f 64 79 3e 3c 2f 68 74 6d 6c 3e 0d 0a
+
+[Ethernet Header (14 bytes)]
+  Destination address: 50:9a:4c:e2:d4:91
+  Source address: bc:30:5b:dd:d6:3c
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 52 [bytes]
+  Identification: 24407
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 64
+  Protocol: 6 (TCP)
+  Header checksum: 0xd9c5
+  Source address: /165.230.140.98
+  Destination address: /142.250.64.100
+[TCP Header (32 bytes)]
+  Source port: 45766 (unknown)
+  Destination port: 80 (HTTP)
+  Sequence Number: 2186289857
+  Acknowledgment Number: 3146749064
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 454
+  Checksum: 0x01ce
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3323649207] [TS Echo Reply: 3408080609]
+
+[Ethernet Header (14 bytes)]
+  Destination address: bc:30:5b:dd:d6:3c
+  Source address: 50:9a:4c:e2:d4:91
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 57 [bytes]
+  Identification: 26830
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 120
+  Protocol: 6 (TCP)
+  Header checksum: 0xd849
+  Source address: /142.250.64.100
+  Destination address: /165.230.140.98
+[TCP Header (32 bytes)]
+  Source port: 80 (HTTP)
+  Destination port: 45766 (unknown)
+  Sequence Number: 3146749064
+  Acknowledgment Number: 2186289857
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: true
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 261
+  Checksum: 0xead0
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3408080610] [TS Echo Reply: 3323649207]
+[data (5 bytes)]
+  Hex stream: 30 0d 0a 0d 0a
+
+[Ethernet Header (14 bytes)]
+  Destination address: 50:9a:4c:e2:d4:91
+  Source address: bc:30:5b:dd:d6:3c
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 52 [bytes]
+  Identification: 24408
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 64
+  Protocol: 6 (TCP)
+  Header checksum: 0xd9c4
+  Source address: /165.230.140.98
+  Destination address: /142.250.64.100
+[TCP Header (32 bytes)]
+  Source port: 45766 (unknown)
+  Destination port: 80 (HTTP)
+  Sequence Number: 2186289857
+  Acknowledgment Number: 3146749069
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 454
+  Checksum: 0x01ce
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3323649207] [TS Echo Reply: 3408080610]
+
+[Ethernet Header (14 bytes)]
+  Destination address: 50:9a:4c:e2:d4:91
+  Source address: bc:30:5b:dd:d6:3c
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 8 (Minimize Delay)] [mbz: 0]
+  Total length: 240 [bytes]
+  Identification: 63478
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 64
+  Protocol: 6 (TCP)
+  Header checksum: 0x25ab
+  Source address: /165.230.140.98
+  Destination address: /24.187.209.82
+[TCP Header (32 bytes)]
+  Source port: 22 (SSH)
+  Destination port: 56472 (unknown)
+  Sequence Number: 2903763665
+  Acknowledgment Number: 846581710
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: true
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 317
+  Checksum: 0x1d39
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3323649207] [TS Echo Reply: 719688081]
+[data (188 bytes)]
+  Hex stream: 4e fc 42 4e 51 26 6a 11 b5 8f 86 ba 1d b5 25 d2 32 16 64 be 59 d4 28 a0 bc 8f ff e1 8d 6d 16 5e 39 4b 27 a1 1e 48 18 b6 5c ce d1 e2 87 f1 7d 6d 91 34 be 3e 3b ee 48 4d 84 74 29 09 16 19 f5 01 f6 c6 7b dd f8 41 4c e7 a5 7a 0d 39 d8 27 4d f7 94 f0 bb f0 d3 0c 20 ce 82 98 37 51 98 1d d0 61 3a 6a ed 16 ae b2 a3 07 b5 91 36 e0 18 5b 07 6f 7e be e8 0f 27 71 16 23 59 e5 00 79 24 8d d8 4b 32 af a0 cd 26 1e 67 57 73 8e 3e 8b 4d 38 26 11 db eb ff b0 e1 13 a6 de 98 42 04 b3 5b 3a eb b7 db 5a 4b 9f 0b 63 89 fa 61 fa 63 84 03 ce f2 4a 88 b2 30 45 1e 3a 3c dc d2 f9 0b f6
+
+[Ethernet Header (14 bytes)]
+  Destination address: 50:9a:4c:e2:d4:91
+  Source address: bc:30:5b:dd:d6:3c
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 52 [bytes]
+  Identification: 24409
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 64
+  Protocol: 6 (TCP)
+  Header checksum: 0xd9c3
+  Source address: /165.230.140.98
+  Destination address: /142.250.64.100
+[TCP Header (32 bytes)]
+  Source port: 45766 (unknown)
+  Destination port: 80 (HTTP)
+  Sequence Number: 2186289857
+  Acknowledgment Number: 3146749069
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: true
+  Window: 454
+  Checksum: 0x01ce
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3323649207] [TS Echo Reply: 3408080610]
+
+[Ethernet Header (14 bytes)]
+  Destination address: 50:9a:4c:e2:d4:91
+  Source address: bc:30:5b:dd:d6:3c
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 8 (Minimize Delay)] [mbz: 0]
+  Total length: 128 [bytes]
+  Identification: 63479
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 64
+  Protocol: 6 (TCP)
+  Header checksum: 0x261a
+  Source address: /165.230.140.98
+  Destination address: /24.187.209.82
+[TCP Header (32 bytes)]
+  Source port: 22 (SSH)
+  Destination port: 56472 (unknown)
+  Sequence Number: 2903763853
+  Acknowledgment Number: 846581710
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: true
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 317
+  Checksum: 0x1cc9
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3323649208] [TS Echo Reply: 719688081]
+[data (76 bytes)]
+  Hex stream: 17 ac a0 7e e3 aa fa 80 f5 50 00 80 98 3e 69 9c e0 5c 64 44 a5 b0 db af 47 4f 9f 9b e5 a8 1c 14 73 9a bb 40 3f 23 8a 8d 08 0b 97 c4 4a 71 ad d2 89 5e 1f a1 c8 0a db fd 42 81 f7 d6 ea 8c 93 c1 13 c3 dc 0e 7a 8f 7d 94 27 f0 85 5d
+
+[Ethernet Header (14 bytes)]
+  Destination address: bc:30:5b:dd:d6:3c
+  Source address: 50:9a:4c:e2:d4:91
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 52 [bytes]
+  Identification: 26831
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 120
+  Protocol: 6 (TCP)
+  Header checksum: 0xd84d
+  Source address: /142.250.64.100
+  Destination address: /165.230.140.98
+[TCP Header (32 bytes)]
+  Source port: 80 (HTTP)
+  Destination port: 45766 (unknown)
+  Sequence Number: 3146749069
+  Acknowledgment Number: 2186289858
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: true
+  Window: 261
+  Checksum: 0x2ef0
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3408080611] [TS Echo Reply: 3323649207]
+
+[Ethernet Header (14 bytes)]
+  Destination address: 50:9a:4c:e2:d4:91
+  Source address: bc:30:5b:dd:d6:3c
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 52 [bytes]
+  Identification: 24410
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 64
+  Protocol: 6 (TCP)
+  Header checksum: 0xd9c2
+  Source address: /165.230.140.98
+  Destination address: /142.250.64.100
+[TCP Header (32 bytes)]
+  Source port: 45766 (unknown)
+  Destination port: 80 (HTTP)
+  Sequence Number: 2186289858
+  Acknowledgment Number: 3146749070
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 454
+  Checksum: 0x01ce
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 3323649208] [TS Echo Reply: 3408080611]
+
+[Ethernet Header (14 bytes)]
+  Destination address: bc:30:5b:dd:d6:3c
+  Source address: 50:9a:4c:e2:d4:91
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 52 [bytes]
+  Identification: 54005
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 48
+  Protocol: 6 (TCP)
+  Header checksum: 0x5b78
+  Source address: /24.187.209.82
+  Destination address: /165.230.140.98
+[TCP Header (32 bytes)]
+  Source port: 56472 (unknown)
+  Destination port: 22 (SSH)
+  Sequence Number: 846581710
+  Acknowledgment Number: 2903763117
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 501
+  Checksum: 0x74db
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 719692084] [TS Echo Reply: 3323649197]
+
+[Ethernet Header (14 bytes)]
+  Destination address: bc:30:5b:dd:d6:3c
+  Source address: 50:9a:4c:e2:d4:91
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 52 [bytes]
+  Identification: 54006
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 48
+  Protocol: 6 (TCP)
+  Header checksum: 0x5b77
+  Source address: /24.187.209.82
+  Destination address: /165.230.140.98
+[TCP Header (32 bytes)]
+  Source port: 56472 (unknown)
+  Destination port: 22 (SSH)
+  Sequence Number: 846581710
+  Acknowledgment Number: 2903763201
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 501
+  Checksum: 0x7487
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 719692084] [TS Echo Reply: 3323649197]
+
+[Ethernet Header (14 bytes)]
+  Destination address: bc:30:5b:dd:d6:3c
+  Source address: 50:9a:4c:e2:d4:91
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 52 [bytes]
+  Identification: 54007
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 48
+  Protocol: 6 (TCP)
+  Header checksum: 0x5b76
+  Source address: /24.187.209.82
+  Destination address: /165.230.140.98
+[TCP Header (32 bytes)]
+  Source port: 56472 (unknown)
+  Destination port: 22 (SSH)
+  Sequence Number: 846581710
+  Acknowledgment Number: 2903763349
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 501
+  Checksum: 0x73f0
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 719692087] [TS Echo Reply: 3323649197]
+
+[Ethernet Header (14 bytes)]
+  Destination address: bc:30:5b:dd:d6:3c
+  Source address: 50:9a:4c:e2:d4:91
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 52 [bytes]
+  Identification: 54008
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 48
+  Protocol: 6 (TCP)
+  Header checksum: 0x5b75
+  Source address: /24.187.209.82
+  Destination address: /165.230.140.98
+[TCP Header (32 bytes)]
+  Source port: 56472 (unknown)
+  Destination port: 22 (SSH)
+  Sequence Number: 846581710
+  Acknowledgment Number: 2903763441
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 501
+  Checksum: 0x7393
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 719692087] [TS Echo Reply: 3323649198]
+
+[Ethernet Header (14 bytes)]
+  Destination address: bc:30:5b:dd:d6:3c
+  Source address: 50:9a:4c:e2:d4:91
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 52 [bytes]
+  Identification: 54011
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 48
+  Protocol: 6 (TCP)
+  Header checksum: 0x5b72
+  Source address: /24.187.209.82
+  Destination address: /165.230.140.98
+[TCP Header (32 bytes)]
+  Source port: 56472 (unknown)
+  Destination port: 22 (SSH)
+  Sequence Number: 846581710
+  Acknowledgment Number: 2903763853
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 501
+  Checksum: 0x71c8
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 719692125] [TS Echo Reply: 3323649207]
+
+[Ethernet Header (14 bytes)]
+  Destination address: bc:30:5b:dd:d6:3c
+  Source address: 50:9a:4c:e2:d4:91
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 52 [bytes]
+  Identification: 54012
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 48
+  Protocol: 6 (TCP)
+  Header checksum: 0x5b71
+  Source address: /24.187.209.82
+  Destination address: /165.230.140.98
+[TCP Header (32 bytes)]
+  Source port: 56472 (unknown)
+  Destination port: 22 (SSH)
+  Sequence Number: 846581710
+  Acknowledgment Number: 2903763929
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 501
+  Checksum: 0x717b
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 8 (Timestamps)] [Length: 10 bytes] [TS Value: 719692125] [TS Echo Reply: 3323649208]
+
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: 50:9a:4c:e2:d4:91
+  Type: 0x0806 (ARP)
+[ARP Header (28 bytes)]
+  Hardware type: 1 (Ethernet (10Mb))
+  Protocol type: 0x0800 (IPv4)
+  Hardware address length: 6 [bytes]
+  Protocol address length: 4 [bytes]
+  Operation: 1 (REQUEST)
+  Source hardware address: 50:9a:4c:e2:d4:91
+  Source protocol address: /165.230.140.97
+  Destination hardware address: 00:00:00:00:00:00
+  Destination protocol address: /165.230.140.99
+[Ethernet Pad (18 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: 50:9a:4c:e2:d4:91
+  Type: 0x0806 (ARP)
+[ARP Header (28 bytes)]
+  Hardware type: 1 (Ethernet (10Mb))
+  Protocol type: 0x0800 (IPv4)
+  Hardware address length: 6 [bytes]
+  Protocol address length: 4 [bytes]
+  Operation: 1 (REQUEST)
+  Source hardware address: 50:9a:4c:e2:d4:91
+  Source protocol address: /165.230.140.97
+  Destination hardware address: 00:00:00:00:00:00
+  Destination protocol address: /165.230.140.99
+[Ethernet Pad (18 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: 50:9a:4c:e2:d4:91
+  Type: 0x0806 (ARP)
+[ARP Header (28 bytes)]
+  Hardware type: 1 (Ethernet (10Mb))
+  Protocol type: 0x0800 (IPv4)
+  Hardware address length: 6 [bytes]
+  Protocol address length: 4 [bytes]
+  Operation: 1 (REQUEST)
+  Source hardware address: 50:9a:4c:e2:d4:91
+  Source protocol address: /165.230.140.97
+  Destination hardware address: 00:00:00:00:00:00
+  Destination protocol address: /165.230.140.99
+[Ethernet Pad (18 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: 50:9a:4c:e2:d4:91
+  Type: 0x0806 (ARP)
+[ARP Header (28 bytes)]
+  Hardware type: 1 (Ethernet (10Mb))
+  Protocol type: 0x0800 (IPv4)
+  Hardware address length: 6 [bytes]
+  Protocol address length: 4 [bytes]
+  Operation: 1 (REQUEST)
+  Source hardware address: 50:9a:4c:e2:d4:91
+  Source protocol address: /165.230.140.97
+  Destination hardware address: 00:00:00:00:00:00
+  Destination protocol address: /165.230.140.99
+[Ethernet Pad (18 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: 50:9a:4c:e2:d4:91
+  Type: 0x0806 (ARP)
+[ARP Header (28 bytes)]
+  Hardware type: 1 (Ethernet (10Mb))
+  Protocol type: 0x0800 (IPv4)
+  Hardware address length: 6 [bytes]
+  Protocol address length: 4 [bytes]
+  Operation: 1 (REQUEST)
+  Source hardware address: 50:9a:4c:e2:d4:91
+  Source protocol address: /165.230.140.97
+  Destination hardware address: 00:00:00:00:00:00
+  Destination protocol address: /165.230.140.99
+[Ethernet Pad (18 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[Ethernet Header (14 bytes)]
+  Destination address: 01:80:c2:00:00:00
+  Source address: 00:12:7f:36:72:1f
+  Type: Length (38 bytes)
+[data (38 bytes)]
+  Hex stream: 42 42 03 00 00 00 00 00 80 8d 00 09 7c 2d 37 40 00 00 00 02 80 8d 00 21 56 ea 54 00 83 9e 01 00 14 00 02 00 0f 00
+[Ethernet Pad (8 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00
+

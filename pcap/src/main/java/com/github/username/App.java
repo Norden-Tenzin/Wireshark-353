@@ -183,6 +183,7 @@ public class App {
     total_time = total_time / 1000.0;
 
     for (Flow f : flowHolder) {
+      f.incNoFin();
       System.out.println(f.toString());
     }
 
@@ -210,6 +211,7 @@ class Flow {
   int dPort;
   int packetComplete;
   int packetInComplete;
+  int packetUk;
   float totalByte;
   double avgBandwidth;
   boolean foundSYN = false;
@@ -227,6 +229,7 @@ class Flow {
     this.totalByte = 0;
     this.packetComplete = 0;
     this.packetInComplete = 0;
+    this.packetUk = 0;
   }
 
   void foundSYN() {
@@ -238,16 +241,28 @@ class Flow {
   }
 
   void incPackets() {
-    if (foundSYN == false && foundFIN == false) {
+    if (this.foundSYN == false && this.foundFIN == false) {
       this.packetInComplete += 1;
     }
-    if (foundSYN == true && foundFIN == false) {
+    if (this.foundSYN == true && this.foundFIN == false) {
+      this.packetUk += 1;
+    } 
+    else if (this.foundSYN == false && this.foundFIN == true) {
       this.packetInComplete += 1;
-    } else if (foundSYN == false && foundFIN == true) {
-      this.packetInComplete += 1;
+      this.foundFIN = false;
     }
-    if (foundSYN == true && foundFIN == true) {
-      this.packetComplete = this.packetInComplete + 1;
+    if (this.foundSYN == true && this.foundFIN == true) {
+      System.out.println("PACKET UK " + this.packetUk);
+      this.packetComplete = this.packetUk + 1;
+      this.packetUk = 0;
+      this.foundFIN = false;
+      this.foundSYN = false;
+    }
+  }
+
+  void incNoFin() {
+    if (this.packetUk > 0) {
+      this.packetInComplete = this.packetUk;
     }
   }
 
@@ -268,22 +283,38 @@ class Flow {
   }
 
   public String toString() {
-    return (
-      sIp +
-      ", " +
-      sPort +
-      ", " +
-      dIp +
-      ", " +
-      dPort +
-      ", " +
-      packetComplete +
-      ", " +
-      packetInComplete +
-      ", " +
-      totalByte +
-      ", " +
-      avgBandwidth
-    );
+    if (this.packetComplete == 0) {
+      return (
+        sIp +
+        ", " +
+        sPort +
+        ", " +
+        dIp +
+        ", " +
+        dPort +
+        ", " +
+        packetComplete +
+        ", " +
+        packetInComplete
+      );
+    } else {
+      return (
+        sIp +
+        ", " +
+        sPort +
+        ", " +
+        dIp +
+        ", " +
+        dPort +
+        ", " +
+        packetComplete +
+        ", " +
+        packetInComplete +
+        ", " +
+        totalByte +
+        ", " +
+        avgBandwidth
+      );
+    }
   }
 }

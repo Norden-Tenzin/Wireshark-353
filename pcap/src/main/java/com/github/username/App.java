@@ -17,6 +17,7 @@ import org.pcap4j.core.PcapNetworkInterface;
 import org.pcap4j.core.PcapNetworkInterface.PromiscuousMode;
 import org.pcap4j.core.PcapStat;
 import org.pcap4j.core.Pcaps;
+import org.pcap4j.packet.IcmpV4CommonPacket;
 import org.pcap4j.packet.IpV4Packet;
 import org.pcap4j.packet.Packet;
 import org.pcap4j.packet.TcpPacket;
@@ -28,6 +29,11 @@ public class App {
   static int check_number = 0;
   static int UDP_number = 0;
   static int TCP_number = 0;
+  static int ICMP_number = 0;
+  static int OTHER_number = 0;
+  static float total_UDP_byte = 0;
+  static float total_ICMP_byte = 0;
+  static float total_OTHER_byte = 0;
   static double total_byte = 0;
 
   static double first_pack_time = 0;
@@ -133,10 +139,19 @@ public class App {
           } catch (ArrayIndexOutOfBoundsException e) {
             e.printStackTrace();
           }
-          UDP_number = UDP_number + 1;
         }
-        if (packet.get(UdpPacket.class) != null) {
-          TCP_number = TCP_number + 1;
+        // if (packet.get(UdpPacket.class) != null) {
+        //   TCP_number = TCP_number + 1;
+        // }
+        else if (packet.get(UdpPacket.class) != null) {
+          UDP_number = UDP_number + 1;
+          total_UDP_byte += (float) packet.length();
+        } else if (packet.get(IcmpV4CommonPacket.class) != null) {
+          ICMP_number = ICMP_number + 1;
+          total_ICMP_byte += (float) packet.length();
+        } else {
+          OTHER_number = OTHER_number + 1;
+          total_OTHER_byte += (float) packet.length();
         }
       }
     };
@@ -151,21 +166,16 @@ public class App {
     // double total_time = last_pack_time - first_pack_time;
     // total_time = total_time / 1000.0;
 
+    System.out.println("TCP Summary Table");
     for (Flow f : flowHolder) {
       f.incNoFin();
       System.out.println(f.toString());
     }
-
-    // System.out.println("TCP Summary Table");
-    // System.out.println("Total number of packets, " + check_number);
-    // System.out.println("Total number of UDP packets, " + UDP_number);
-    // System.out.println("Total number of TCP packets, " + TCP_number);
-    // System.out.println(
-    //   "Total bandwidth of the packet trace in Mbps, " +
-    //   total_byte /
-    //   total_time /
-    //   125000.0
-    // );
+    System.out.println();
+    System.out.println("Additional Protocols Summary Table");
+    System.out.println("UDP, " + UDP_number + ", " + total_UDP_byte);
+    System.out.println("ICMP, " + ICMP_number + ", " + total_ICMP_byte);
+    System.out.println("Other, " + OTHER_number + ", " + total_OTHER_byte);
     handle.close();
   }
 }

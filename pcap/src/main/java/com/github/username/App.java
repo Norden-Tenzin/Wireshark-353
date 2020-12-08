@@ -139,11 +139,8 @@ public class App {
           } catch (ArrayIndexOutOfBoundsException e) {
             e.printStackTrace();
           }
-        }
-        // if (packet.get(UdpPacket.class) != null) {
-        //   TCP_number = TCP_number + 1;
-        // }
-        else if (packet.get(UdpPacket.class) != null) {
+          TCP_number = TCP_number + 1;
+        } else if (packet.get(UdpPacket.class) != null) {
           UDP_number = UDP_number + 1;
           total_UDP_byte += (float) packet.length();
         } else if (packet.get(IcmpV4CommonPacket.class) != null) {
@@ -166,6 +163,7 @@ public class App {
     // double total_time = last_pack_time - first_pack_time;
     // total_time = total_time / 1000.0;
 
+    System.out.println();
     System.out.println("TCP Summary Table");
     for (Flow f : flowHolder) {
       f.incNoFin();

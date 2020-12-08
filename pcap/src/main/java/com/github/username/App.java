@@ -2,7 +2,7 @@
 package com.github.username;
 
 import com.sun.jna.Platform;
-import java.io.*; // Import the FileWriter class
+import java.io.*;
 import java.io.File;
 import java.io.IOException;
 import java.net.Inet4Address;
@@ -26,7 +26,6 @@ import org.pcap4j.util.NifSelector;
 
 public class App {
 
-  static int check_number = 0;
   static int UDP_number = 0;
   static int TCP_number = 0;
   static int ICMP_number = 0;
@@ -47,66 +46,55 @@ public class App {
 
   public static void main(String[] args)
     throws PcapNativeException, NotOpenException {
-    System.out.println("Let's start analysis ");
-
     final PcapHandle handle;
-
-    handle = Pcaps.openOffline("small.pcap");
-
-    System.out.println("handle");
-    System.out.println(handle);
+    handle = Pcaps.openOffline(args[0]);
 
     PacketListener listener = new PacketListener() {
       public void gotPacket(Packet packet) {
-        String lines[] = packet.getPayload().toString().split("\\r?\\n");
-        if (first_packet_time == false) {
-          first_pack_time = (double) handle.getTimestamp().getTime();
-          first_packet_time = true;
-        }
-        last_pack_time = (double) handle.getTimestamp().getTime();
-        check_number = 1 + check_number;
-        total_byte = total_byte + (double) packet.length();
-
+        // if packet is TCP
         if (packet.get(TcpPacket.class) != null) {
           try {
             boolean flowExists = false;
+            //SRC IP
             String sip = packet
               .get(IpV4Packet.class)
               .getHeader()
-              .toString()
-              .split("\\r?\\n")[11].substring(19);
+              .getSrcAddr()
+              .getHostAddress();
+            //DST IP
             String dip = packet
               .get(IpV4Packet.class)
               .getHeader()
-              .toString()
-              .split("\\r?\\n")[12].substring(24);
+              .getDstAddr()
+              .getHostAddress();
+            //SRC PORT
             String sport = packet
               .get(TcpPacket.class)
-              .toString()
-              .split("\\r?\\n")[1].split(" ")[4];
+              .getHeader()
+              .getSrcPort()
+              .valueAsString();
+            //DST PORT
             String dport = packet
               .get(TcpPacket.class)
-              .toString()
-              .split("\\r?\\n")[2].split(" ")[4];
-            boolean syn = Boolean.parseBoolean(
-              packet
-                .get(TcpPacket.class)
-                .toString()
-                .split("\\r?\\n")[11].split(" ")[3]
-            );
-            boolean fin = Boolean.parseBoolean(
-              packet
-                .get(TcpPacket.class)
-                .toString()
-                .split("\\r?\\n")[12].split(" ")[3]
-            );
+              .getHeader()
+              .getDstPort()
+              .valueAsString();
+
+            //SYN FLAG
+            boolean syn = packet.get(TcpPacket.class).getHeader().getSyn();
+            //FIN FLAG
+            boolean fin = packet.get(TcpPacket.class).getHeader().getFin();
+
+            // Creates a new Flow object with basic info.
             Flow f1 = new Flow(
               sip,
               Integer.parseInt(sport),
               dip,
               Integer.parseInt(dport)
             );
+            // for each element in the list check if the f1 obj exists
             for (Flow f : flowHolder) {
+              // if it does it changes the in the object inside the list
               if (f.id().equals(f1.id())) {
                 flowExists = true;
                 if (syn == true) {
@@ -121,8 +109,8 @@ public class App {
                 f.incPackets();
               }
             }
+            // else it adds the new element with values into the list
             if (flowExists == false) {
-              // new values
               if (syn == true) {
                 f1.foundSYN();
               }
@@ -140,13 +128,19 @@ public class App {
             e.printStackTrace();
           }
           TCP_number = TCP_number + 1;
-        } else if (packet.get(UdpPacket.class) != null) {
+        }
+        // if packet is UDP
+        else if (packet.get(UdpPacket.class) != null) {
           UDP_number = UDP_number + 1;
           total_UDP_byte += (float) packet.length();
-        } else if (packet.get(IcmpV4CommonPacket.class) != null) {
+        }
+        // if packet is ICMP
+        else if (packet.get(IcmpV4CommonPacket.class) != null) {
           ICMP_number = ICMP_number + 1;
           total_ICMP_byte += (float) packet.length();
-        } else {
+        }
+        // if packet is OTHER
+        else {
           OTHER_number = OTHER_number + 1;
           total_OTHER_byte += (float) packet.length();
         }
@@ -160,9 +154,7 @@ public class App {
       e.printStackTrace();
     }
 
-    // double total_time = last_pack_time - first_pack_time;
-    // total_time = total_time / 1000.0;
-
+    // final output
     System.out.println();
     System.out.println("TCP Summary Table");
     for (Flow f : flowHolder) {
@@ -178,6 +170,7 @@ public class App {
   }
 }
 
+// Flow class holds the req values for the packtes
 class Flow {
 
   String sIp;
@@ -200,6 +193,7 @@ class Flow {
   double firstTime;
   double lastTime;
 
+  // FLow class constructor Sets the basic values req for id method.
   Flow(String sip, int sport, String dip, int dport) {
     this.sIp = sip;
     this.dIp = dip;
@@ -213,14 +207,17 @@ class Flow {
     this.packetUk = 0;
   }
 
+  // called when SYN is found.
   void foundSYN() {
     this.foundSYN = true;
   }
 
+  // called when FIN is found.
   void foundFIN() {
     this.foundFIN = true;
   }
 
+  // Increments the Incomplete and complete packets counter
   void incPackets() {
     if (this.foundSYN == false && this.foundFIN == false) { // both not found
       this.packetInComplete += 1;
@@ -239,6 +236,7 @@ class Flow {
     }
   }
 
+  // Calculates the Completed Bytes
   void incCompletedBytes(double b) {
     if (this.foundSYN == true && this.foundFIN == true) {
       this.completedBytes = this.inCompletedBytes + b;
@@ -248,16 +246,19 @@ class Flow {
     }
   }
 
+  // In the case when no fin is found it turns the unknown packets to incomplete packets
   void incNoFin() {
     if (this.packetUk > 0) {
       this.packetInComplete = this.packetUk;
     }
   }
 
+  // Column 7 calculation for total bytes
   void incTotalBytes(double b) {
     this.totalBytes += b;
   }
 
+  // Sets the Time for the firstTime and lastTime
   void setTime(double t) {
     if (haveFirstTime == false && this.foundSYN == true) {
       this.firstTime = t;
@@ -274,10 +275,13 @@ class Flow {
     }
   }
 
+  // This is used to identify the flow object inside the ArrayList class
   public String id() {
     return (sIp + ", " + sPort + ", " + dIp + ", " + dPort);
   }
 
+  // prints out the required table
+  // calculates totalTime and average Bandwith
   public String toString() {
     double totalTime = this.lastTime - this.firstTime;
     totalTime = totalTime / 1000000;
